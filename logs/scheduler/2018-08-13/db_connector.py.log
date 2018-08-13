@@ -1,0 +1,410 @@
+[2018-08-13 15:04:47,948] {jobs.py:343} DagFileProcessor8 INFO - Started process (PID=32141) to work on /home/yurii/Work/airflow/dags/db_connector.py
+[2018-08-13 15:04:47,950] {jobs.py:1521} DagFileProcessor8 INFO - Processing file /home/yurii/Work/airflow/dags/db_connector.py for tasks to queue
+[2018-08-13 15:04:47,950] {models.py:167} DagFileProcessor8 INFO - Filling up the DagBag from /home/yurii/Work/airflow/dags/db_connector.py
+[2018-08-13 15:04:48,201] {jobs.py:1535} DagFileProcessor8 INFO - DAG(s) dict_keys(['example_bash_operator', 'example_subdag_operator', 'example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_passing_params_via_test_command', 'latest_only_with_trigger', 'example_xcom', 'example_short_circuit_operator', 'test_utils', 'example_skip_dag', 'example_branch_dop_operator_v3', 'example_trigger_controller_dag', 'tutorial', 'example_http_operator', 'latest_only', 'example_branch_operator', 'example_python_operator', 'example_trigger_target_dag', 'exchange_rate']) retrieved from /home/yurii/Work/airflow/dags/db_connector.py
+[2018-08-13 15:04:48,328] {models.py:322} DagFileProcessor8 INFO - Finding 'running' jobs without a recent heartbeat
+[2018-08-13 15:04:48,329] {models.py:328} DagFileProcessor8 INFO - Failing jobs without heartbeat after 2018-08-13 14:59:48.329052
+[2018-08-13 15:04:48,332] {jobs.py:351} DagFileProcessor8 INFO - Processing /home/yurii/Work/airflow/dags/db_connector.py took 0.384 seconds
+[2018-08-13 15:04:54,015] {jobs.py:343} DagFileProcessor19 INFO - Started process (PID=32179) to work on /home/yurii/Work/airflow/dags/db_connector.py
+[2018-08-13 15:04:54,016] {jobs.py:1521} DagFileProcessor19 INFO - Processing file /home/yurii/Work/airflow/dags/db_connector.py for tasks to queue
+[2018-08-13 15:04:54,017] {models.py:167} DagFileProcessor19 INFO - Filling up the DagBag from /home/yurii/Work/airflow/dags/db_connector.py
+[2018-08-13 15:04:54,272] {jobs.py:1535} DagFileProcessor19 INFO - DAG(s) dict_keys(['example_bash_operator', 'example_subdag_operator', 'example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_passing_params_via_test_command', 'latest_only_with_trigger', 'example_xcom', 'example_short_circuit_operator', 'test_utils', 'example_skip_dag', 'example_branch_dop_operator_v3', 'example_trigger_controller_dag', 'tutorial', 'example_http_operator', 'latest_only', 'example_branch_operator', 'example_python_operator', 'example_trigger_target_dag', 'exchange_rate']) retrieved from /home/yurii/Work/airflow/dags/db_connector.py
+[2018-08-13 15:04:54,410] {models.py:322} DagFileProcessor19 INFO - Finding 'running' jobs without a recent heartbeat
+[2018-08-13 15:04:54,410] {models.py:328} DagFileProcessor19 INFO - Failing jobs without heartbeat after 2018-08-13 14:59:54.410160
+[2018-08-13 15:04:54,413] {jobs.py:351} DagFileProcessor19 INFO - Processing /home/yurii/Work/airflow/dags/db_connector.py took 0.398 seconds
+[2018-08-13 15:05:00,105] {jobs.py:343} DagFileProcessor30 INFO - Started process (PID=32236) to work on /home/yurii/Work/airflow/dags/db_connector.py
+[2018-08-13 15:05:00,106] {jobs.py:1521} DagFileProcessor30 INFO - Processing file /home/yurii/Work/airflow/dags/db_connector.py for tasks to queue
+[2018-08-13 15:05:00,106] {models.py:167} DagFileProcessor30 INFO - Filling up the DagBag from /home/yurii/Work/airflow/dags/db_connector.py
+[2018-08-13 15:05:00,361] {jobs.py:1535} DagFileProcessor30 INFO - DAG(s) dict_keys(['example_bash_operator', 'example_subdag_operator', 'example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_passing_params_via_test_command', 'latest_only_with_trigger', 'example_xcom', 'example_short_circuit_operator', 'test_utils', 'example_skip_dag', 'example_branch_dop_operator_v3', 'example_trigger_controller_dag', 'tutorial', 'example_http_operator', 'latest_only', 'example_branch_operator', 'example_python_operator', 'example_trigger_target_dag', 'exchange_rate']) retrieved from /home/yurii/Work/airflow/dags/db_connector.py
+[2018-08-13 15:05:00,523] {models.py:322} DagFileProcessor30 INFO - Finding 'running' jobs without a recent heartbeat
+[2018-08-13 15:05:00,524] {models.py:328} DagFileProcessor30 INFO - Failing jobs without heartbeat after 2018-08-13 15:00:00.524187
+[2018-08-13 15:05:00,527] {jobs.py:351} DagFileProcessor30 INFO - Processing /home/yurii/Work/airflow/dags/db_connector.py took 0.423 seconds
+[2018-08-13 15:05:06,177] {jobs.py:343} DagFileProcessor41 INFO - Started process (PID=32272) to work on /home/yurii/Work/airflow/dags/db_connector.py
+[2018-08-13 15:05:06,179] {jobs.py:1521} DagFileProcessor41 INFO - Processing file /home/yurii/Work/airflow/dags/db_connector.py for tasks to queue
+[2018-08-13 15:05:06,179] {models.py:167} DagFileProcessor41 INFO - Filling up the DagBag from /home/yurii/Work/airflow/dags/db_connector.py
+[2018-08-13 15:05:06,433] {jobs.py:1535} DagFileProcessor41 INFO - DAG(s) dict_keys(['example_bash_operator', 'example_subdag_operator', 'example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_passing_params_via_test_command', 'latest_only_with_trigger', 'example_xcom', 'example_short_circuit_operator', 'test_utils', 'example_skip_dag', 'example_branch_dop_operator_v3', 'example_trigger_controller_dag', 'tutorial', 'example_http_operator', 'latest_only', 'example_branch_operator', 'example_python_operator', 'example_trigger_target_dag', 'exchange_rate']) retrieved from /home/yurii/Work/airflow/dags/db_connector.py
+[2018-08-13 15:05:06,580] {models.py:322} DagFileProcessor41 INFO - Finding 'running' jobs without a recent heartbeat
+[2018-08-13 15:05:06,581] {models.py:328} DagFileProcessor41 INFO - Failing jobs without heartbeat after 2018-08-13 15:00:06.581090
+[2018-08-13 15:05:06,584] {jobs.py:351} DagFileProcessor41 INFO - Processing /home/yurii/Work/airflow/dags/db_connector.py took 0.407 seconds
+[2018-08-13 15:05:12,258] {jobs.py:343} DagFileProcessor52 INFO - Started process (PID=32307) to work on /home/yurii/Work/airflow/dags/db_connector.py
+[2018-08-13 15:05:12,260] {jobs.py:1521} DagFileProcessor52 INFO - Processing file /home/yurii/Work/airflow/dags/db_connector.py for tasks to queue
+[2018-08-13 15:05:12,260] {models.py:167} DagFileProcessor52 INFO - Filling up the DagBag from /home/yurii/Work/airflow/dags/db_connector.py
+[2018-08-13 15:05:12,514] {jobs.py:1535} DagFileProcessor52 INFO - DAG(s) dict_keys(['example_bash_operator', 'example_subdag_operator', 'example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_passing_params_via_test_command', 'latest_only_with_trigger', 'example_xcom', 'example_short_circuit_operator', 'test_utils', 'example_skip_dag', 'example_branch_dop_operator_v3', 'example_trigger_controller_dag', 'tutorial', 'example_http_operator', 'latest_only', 'example_branch_operator', 'example_python_operator', 'example_trigger_target_dag', 'exchange_rate']) retrieved from /home/yurii/Work/airflow/dags/db_connector.py
+[2018-08-13 15:05:12,631] {models.py:322} DagFileProcessor52 INFO - Finding 'running' jobs without a recent heartbeat
+[2018-08-13 15:05:12,632] {models.py:328} DagFileProcessor52 INFO - Failing jobs without heartbeat after 2018-08-13 15:00:12.632102
+[2018-08-13 15:05:12,635] {jobs.py:351} DagFileProcessor52 INFO - Processing /home/yurii/Work/airflow/dags/db_connector.py took 0.377 seconds
+[2018-08-13 15:05:18,344] {jobs.py:343} DagFileProcessor63 INFO - Started process (PID=32359) to work on /home/yurii/Work/airflow/dags/db_connector.py
+[2018-08-13 15:05:18,345] {jobs.py:1521} DagFileProcessor63 INFO - Processing file /home/yurii/Work/airflow/dags/db_connector.py for tasks to queue
+[2018-08-13 15:05:18,345] {models.py:167} DagFileProcessor63 INFO - Filling up the DagBag from /home/yurii/Work/airflow/dags/db_connector.py
+[2018-08-13 15:05:18,682] {jobs.py:1535} DagFileProcessor63 INFO - DAG(s) dict_keys(['example_bash_operator', 'example_subdag_operator', 'example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_passing_params_via_test_command', 'latest_only_with_trigger', 'example_xcom', 'example_short_circuit_operator', 'test_utils', 'example_skip_dag', 'example_branch_dop_operator_v3', 'example_trigger_controller_dag', 'tutorial', 'example_http_operator', 'latest_only', 'example_branch_operator', 'example_python_operator', 'example_trigger_target_dag', 'exchange_rate']) retrieved from /home/yurii/Work/airflow/dags/db_connector.py
+[2018-08-13 15:05:18,835] {models.py:322} DagFileProcessor63 INFO - Finding 'running' jobs without a recent heartbeat
+[2018-08-13 15:05:18,835] {models.py:328} DagFileProcessor63 INFO - Failing jobs without heartbeat after 2018-08-13 15:00:18.835520
+[2018-08-13 15:05:18,845] {jobs.py:351} DagFileProcessor63 INFO - Processing /home/yurii/Work/airflow/dags/db_connector.py took 0.501 seconds
+[2018-08-13 15:05:24,405] {jobs.py:343} DagFileProcessor74 INFO - Started process (PID=32434) to work on /home/yurii/Work/airflow/dags/db_connector.py
+[2018-08-13 15:05:24,406] {jobs.py:1521} DagFileProcessor74 INFO - Processing file /home/yurii/Work/airflow/dags/db_connector.py for tasks to queue
+[2018-08-13 15:05:24,407] {models.py:167} DagFileProcessor74 INFO - Filling up the DagBag from /home/yurii/Work/airflow/dags/db_connector.py
+[2018-08-13 15:05:24,721] {jobs.py:1535} DagFileProcessor74 INFO - DAG(s) dict_keys(['example_bash_operator', 'example_subdag_operator', 'example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_passing_params_via_test_command', 'latest_only_with_trigger', 'example_xcom', 'example_short_circuit_operator', 'test_utils', 'example_skip_dag', 'example_branch_dop_operator_v3', 'example_trigger_controller_dag', 'tutorial', 'example_http_operator', 'latest_only', 'example_branch_operator', 'example_python_operator', 'example_trigger_target_dag', 'exchange_rate']) retrieved from /home/yurii/Work/airflow/dags/db_connector.py
+[2018-08-13 15:05:24,843] {models.py:322} DagFileProcessor74 INFO - Finding 'running' jobs without a recent heartbeat
+[2018-08-13 15:05:24,843] {models.py:328} DagFileProcessor74 INFO - Failing jobs without heartbeat after 2018-08-13 15:00:24.843546
+[2018-08-13 15:05:24,846] {jobs.py:351} DagFileProcessor74 INFO - Processing /home/yurii/Work/airflow/dags/db_connector.py took 0.442 seconds
+[2018-08-13 15:05:30,485] {jobs.py:343} DagFileProcessor85 INFO - Started process (PID=32485) to work on /home/yurii/Work/airflow/dags/db_connector.py
+[2018-08-13 15:05:30,486] {jobs.py:1521} DagFileProcessor85 INFO - Processing file /home/yurii/Work/airflow/dags/db_connector.py for tasks to queue
+[2018-08-13 15:05:30,486] {models.py:167} DagFileProcessor85 INFO - Filling up the DagBag from /home/yurii/Work/airflow/dags/db_connector.py
+[2018-08-13 15:05:30,743] {jobs.py:1535} DagFileProcessor85 INFO - DAG(s) dict_keys(['example_bash_operator', 'example_subdag_operator', 'example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_passing_params_via_test_command', 'latest_only_with_trigger', 'example_xcom', 'example_short_circuit_operator', 'test_utils', 'example_skip_dag', 'example_branch_dop_operator_v3', 'example_trigger_controller_dag', 'tutorial', 'example_http_operator', 'latest_only', 'example_branch_operator', 'example_python_operator', 'example_trigger_target_dag', 'exchange_rate']) retrieved from /home/yurii/Work/airflow/dags/db_connector.py
+[2018-08-13 15:05:30,860] {models.py:322} DagFileProcessor85 INFO - Finding 'running' jobs without a recent heartbeat
+[2018-08-13 15:05:30,860] {models.py:328} DagFileProcessor85 INFO - Failing jobs without heartbeat after 2018-08-13 15:00:30.860282
+[2018-08-13 15:05:30,863] {jobs.py:351} DagFileProcessor85 INFO - Processing /home/yurii/Work/airflow/dags/db_connector.py took 0.378 seconds
+[2018-08-13 15:05:36,552] {jobs.py:343} DagFileProcessor96 INFO - Started process (PID=32548) to work on /home/yurii/Work/airflow/dags/db_connector.py
+[2018-08-13 15:05:36,555] {jobs.py:1521} DagFileProcessor96 INFO - Processing file /home/yurii/Work/airflow/dags/db_connector.py for tasks to queue
+[2018-08-13 15:05:36,556] {models.py:167} DagFileProcessor96 INFO - Filling up the DagBag from /home/yurii/Work/airflow/dags/db_connector.py
+[2018-08-13 15:05:36,818] {jobs.py:1535} DagFileProcessor96 INFO - DAG(s) dict_keys(['example_bash_operator', 'example_subdag_operator', 'example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_passing_params_via_test_command', 'latest_only_with_trigger', 'example_xcom', 'example_short_circuit_operator', 'test_utils', 'example_skip_dag', 'example_branch_dop_operator_v3', 'example_trigger_controller_dag', 'tutorial', 'example_http_operator', 'latest_only', 'example_branch_operator', 'example_python_operator', 'example_trigger_target_dag', 'exchange_rate']) retrieved from /home/yurii/Work/airflow/dags/db_connector.py
+[2018-08-13 15:05:37,001] {models.py:322} DagFileProcessor96 INFO - Finding 'running' jobs without a recent heartbeat
+[2018-08-13 15:05:37,001] {models.py:328} DagFileProcessor96 INFO - Failing jobs without heartbeat after 2018-08-13 15:00:37.001786
+[2018-08-13 15:05:37,005] {jobs.py:351} DagFileProcessor96 INFO - Processing /home/yurii/Work/airflow/dags/db_connector.py took 0.453 seconds
+[2018-08-13 15:05:42,627] {jobs.py:343} DagFileProcessor107 INFO - Started process (PID=32587) to work on /home/yurii/Work/airflow/dags/db_connector.py
+[2018-08-13 15:05:42,628] {jobs.py:1521} DagFileProcessor107 INFO - Processing file /home/yurii/Work/airflow/dags/db_connector.py for tasks to queue
+[2018-08-13 15:05:42,628] {models.py:167} DagFileProcessor107 INFO - Filling up the DagBag from /home/yurii/Work/airflow/dags/db_connector.py
+[2018-08-13 15:05:42,890] {jobs.py:1535} DagFileProcessor107 INFO - DAG(s) dict_keys(['example_bash_operator', 'example_subdag_operator', 'example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_passing_params_via_test_command', 'latest_only_with_trigger', 'example_xcom', 'example_short_circuit_operator', 'test_utils', 'example_skip_dag', 'example_branch_dop_operator_v3', 'example_trigger_controller_dag', 'tutorial', 'example_http_operator', 'latest_only', 'example_branch_operator', 'example_python_operator', 'example_trigger_target_dag', 'exchange_rate']) retrieved from /home/yurii/Work/airflow/dags/db_connector.py
+[2018-08-13 15:05:43,005] {models.py:322} DagFileProcessor107 INFO - Finding 'running' jobs without a recent heartbeat
+[2018-08-13 15:05:43,005] {models.py:328} DagFileProcessor107 INFO - Failing jobs without heartbeat after 2018-08-13 15:00:43.005427
+[2018-08-13 15:05:43,009] {jobs.py:351} DagFileProcessor107 INFO - Processing /home/yurii/Work/airflow/dags/db_connector.py took 0.382 seconds
+[2018-08-13 15:05:48,711] {jobs.py:343} DagFileProcessor118 INFO - Started process (PID=32622) to work on /home/yurii/Work/airflow/dags/db_connector.py
+[2018-08-13 15:05:48,712] {jobs.py:1521} DagFileProcessor118 INFO - Processing file /home/yurii/Work/airflow/dags/db_connector.py for tasks to queue
+[2018-08-13 15:05:48,712] {models.py:167} DagFileProcessor118 INFO - Filling up the DagBag from /home/yurii/Work/airflow/dags/db_connector.py
+[2018-08-13 15:05:49,020] {jobs.py:1535} DagFileProcessor118 INFO - DAG(s) dict_keys(['example_bash_operator', 'example_subdag_operator', 'example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_passing_params_via_test_command', 'latest_only_with_trigger', 'example_xcom', 'example_short_circuit_operator', 'test_utils', 'example_skip_dag', 'example_branch_dop_operator_v3', 'example_trigger_controller_dag', 'tutorial', 'example_http_operator', 'latest_only', 'example_branch_operator', 'example_python_operator', 'example_trigger_target_dag', 'exchange_rate']) retrieved from /home/yurii/Work/airflow/dags/db_connector.py
+[2018-08-13 15:05:49,131] {jobs.py:1169} DagFileProcessor118 INFO - Processing exchange_rate
+[2018-08-13 15:05:49,153] {jobs.py:1173} DagFileProcessor118 INFO - Created <DagRun exchange_rate @ 2018-06-01 00:00:00: scheduled__2018-06-01T00:00:00, externally triggered: False>
+[2018-08-13 15:05:49,155] {jobs.py:860} DagFileProcessor118 INFO - Examining DAG run <DagRun exchange_rate @ 2018-06-01 00:00:00: scheduled__2018-06-01T00:00:00, externally triggered: False>
+[2018-08-13 15:05:49,157] {models.py:4024} DagFileProcessor118 INFO - Updating state for <DagRun exchange_rate @ 2018-06-01 00:00:00: scheduled__2018-06-01T00:00:00, externally triggered: False> considering 1 task(s)
+/home/yurii/Tools/anaconda3/lib/python3.6/site-packages/airflow/ti_deps/deps/base_ti_dep.py:94: DeprecationWarning: generator '_get_dep_statuses' raised StopIteration
+  for dep_status in self._get_dep_statuses(ti, session, dep_context):
+[2018-08-13 15:05:49,163] {jobs.py:566} DagFileProcessor118 INFO - Skipping SLA check for <DAG: exchange_rate> because no tasks in DAG have SLAs
+/home/yurii/Tools/anaconda3/lib/python3.6/site-packages/airflow/models.py:1140: DeprecationWarning: generator 'get_dep_statuses' raised StopIteration
+  dep_context):
+[2018-08-13 15:05:49,170] {models.py:1126} DagFileProcessor118 INFO - Dependencies all met for <TaskInstance: exchange_rate.do_all 2018-06-01 00:00:00 [None]>
+[2018-08-13 15:05:49,170] {jobs.py:1608} DagFileProcessor118 INFO - Creating / updating <TaskInstance: exchange_rate.do_all 2018-06-01 00:00:00 [scheduled]> in ORM
+[2018-08-13 15:05:49,181] {models.py:322} DagFileProcessor118 INFO - Finding 'running' jobs without a recent heartbeat
+[2018-08-13 15:05:49,181] {models.py:328} DagFileProcessor118 INFO - Failing jobs without heartbeat after 2018-08-13 15:00:49.181809
+[2018-08-13 15:05:49,184] {jobs.py:351} DagFileProcessor118 INFO - Processing /home/yurii/Work/airflow/dags/db_connector.py took 0.473 seconds
+[2018-08-13 15:23:18,236] {jobs.py:343} DagFileProcessor2 INFO - Started process (PID=1115) to work on /home/yurii/Work/airflow/dags/db_connector.py
+[2018-08-13 15:23:18,240] {jobs.py:1521} DagFileProcessor2 INFO - Processing file /home/yurii/Work/airflow/dags/db_connector.py for tasks to queue
+[2018-08-13 15:23:18,241] {models.py:167} DagFileProcessor2 INFO - Filling up the DagBag from /home/yurii/Work/airflow/dags/db_connector.py
+[2018-08-13 15:23:18,511] {jobs.py:1535} DagFileProcessor2 INFO - DAG(s) dict_keys(['example_bash_operator', 'example_subdag_operator', 'example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_passing_params_via_test_command', 'latest_only_with_trigger', 'example_xcom', 'example_short_circuit_operator', 'test_utils', 'example_skip_dag', 'example_branch_dop_operator_v3', 'example_trigger_controller_dag', 'tutorial', 'example_http_operator', 'latest_only', 'example_branch_operator', 'example_python_operator', 'example_trigger_target_dag', 'exchange_rate']) retrieved from /home/yurii/Work/airflow/dags/db_connector.py
+[2018-08-13 15:23:18,616] {jobs.py:1169} DagFileProcessor2 INFO - Processing exchange_rate
+[2018-08-13 15:23:18,633] {jobs.py:1173} DagFileProcessor2 INFO - Created <DagRun exchange_rate @ 2018-06-01 01:00:00: scheduled__2018-06-01T01:00:00, externally triggered: False>
+[2018-08-13 15:23:18,635] {jobs.py:860} DagFileProcessor2 INFO - Examining DAG run <DagRun exchange_rate @ 2018-06-01 00:00:00: scheduled__2018-06-01T00:00:00, externally triggered: False>
+[2018-08-13 15:23:18,638] {models.py:4024} DagFileProcessor2 INFO - Updating state for <DagRun exchange_rate @ 2018-06-01 00:00:00: scheduled__2018-06-01T00:00:00, externally triggered: False> considering 1 task(s)
+/home/yurii/Tools/anaconda3/lib/python3.6/site-packages/airflow/ti_deps/deps/base_ti_dep.py:94: DeprecationWarning: generator '_get_dep_statuses' raised StopIteration
+  for dep_status in self._get_dep_statuses(ti, session, dep_context):
+[2018-08-13 15:23:18,641] {jobs.py:860} DagFileProcessor2 INFO - Examining DAG run <DagRun exchange_rate @ 2018-06-01 01:00:00: scheduled__2018-06-01T01:00:00, externally triggered: False>
+[2018-08-13 15:23:18,644] {models.py:4024} DagFileProcessor2 INFO - Updating state for <DagRun exchange_rate @ 2018-06-01 01:00:00: scheduled__2018-06-01T01:00:00, externally triggered: False> considering 1 task(s)
+[2018-08-13 15:23:18,647] {jobs.py:860} DagFileProcessor2 INFO - Examining DAG run <DagRun exchange_rate @ 2018-08-13 15:21:16.392399: manual__2018-08-13T15:21:16.392399, externally triggered: True>
+[2018-08-13 15:23:18,650] {models.py:4024} DagFileProcessor2 INFO - Updating state for <DagRun exchange_rate @ 2018-08-13 15:21:16.392399: manual__2018-08-13T15:21:16.392399, externally triggered: True> considering 1 task(s)
+[2018-08-13 15:23:18,657] {jobs.py:566} DagFileProcessor2 INFO - Skipping SLA check for <DAG: exchange_rate> because no tasks in DAG have SLAs
+/home/yurii/Tools/anaconda3/lib/python3.6/site-packages/airflow/models.py:1140: DeprecationWarning: generator 'get_dep_statuses' raised StopIteration
+  dep_context):
+[2018-08-13 15:23:18,664] {models.py:1126} DagFileProcessor2 INFO - Dependencies all met for <TaskInstance: exchange_rate.do_all 2018-06-01 00:00:00 [None]>
+[2018-08-13 15:23:18,665] {jobs.py:1608} DagFileProcessor2 INFO - Creating / updating <TaskInstance: exchange_rate.do_all 2018-06-01 00:00:00 [scheduled]> in ORM
+[2018-08-13 15:23:18,669] {models.py:1126} DagFileProcessor2 INFO - Dependencies all met for <TaskInstance: exchange_rate.do_all 2018-06-01 01:00:00 [None]>
+[2018-08-13 15:23:18,669] {jobs.py:1608} DagFileProcessor2 INFO - Creating / updating <TaskInstance: exchange_rate.do_all 2018-06-01 01:00:00 [scheduled]> in ORM
+[2018-08-13 15:23:18,672] {models.py:1126} DagFileProcessor2 INFO - Dependencies all met for <TaskInstance: exchange_rate.do_all 2018-08-13 15:21:16.392399 [None]>
+[2018-08-13 15:23:18,673] {jobs.py:1608} DagFileProcessor2 INFO - Creating / updating <TaskInstance: exchange_rate.do_all 2018-08-13 15:21:16.392399 [scheduled]> in ORM
+[2018-08-13 15:23:18,682] {models.py:322} DagFileProcessor2 INFO - Finding 'running' jobs without a recent heartbeat
+[2018-08-13 15:23:18,682] {models.py:328} DagFileProcessor2 INFO - Failing jobs without heartbeat after 2018-08-13 15:18:18.682928
+[2018-08-13 15:23:18,685] {jobs.py:351} DagFileProcessor2 INFO - Processing /home/yurii/Work/airflow/dags/db_connector.py took 0.449 seconds
+[2018-08-13 16:21:42,588] {jobs.py:343} DagFileProcessor5 INFO - Started process (PID=2833) to work on /home/yurii/Work/airflow/dags/db_connector.py
+[2018-08-13 16:21:42,589] {jobs.py:1521} DagFileProcessor5 INFO - Processing file /home/yurii/Work/airflow/dags/db_connector.py for tasks to queue
+[2018-08-13 16:21:42,589] {models.py:167} DagFileProcessor5 INFO - Filling up the DagBag from /home/yurii/Work/airflow/dags/db_connector.py
+[2018-08-13 16:21:42,842] {jobs.py:1535} DagFileProcessor5 INFO - DAG(s) dict_keys(['example_bash_operator', 'example_subdag_operator', 'example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_passing_params_via_test_command', 'latest_only_with_trigger', 'example_xcom', 'example_short_circuit_operator', 'test_utils', 'example_skip_dag', 'example_branch_dop_operator_v3', 'example_trigger_controller_dag', 'tutorial', 'example_http_operator', 'latest_only', 'example_branch_operator', 'example_python_operator', 'example_trigger_target_dag', 'exchange_rate']) retrieved from /home/yurii/Work/airflow/dags/db_connector.py
+[2018-08-13 16:21:42,965] {jobs.py:1169} DagFileProcessor5 INFO - Processing exchange_rate
+[2018-08-13 16:21:42,985] {jobs.py:1173} DagFileProcessor5 INFO - Created <DagRun exchange_rate @ 2018-06-01 02:00:00: scheduled__2018-06-01T02:00:00, externally triggered: False>
+[2018-08-13 16:21:42,986] {jobs.py:860} DagFileProcessor5 INFO - Examining DAG run <DagRun exchange_rate @ 2018-06-01 00:00:00: scheduled__2018-06-01T00:00:00, externally triggered: False>
+[2018-08-13 16:21:42,990] {models.py:4024} DagFileProcessor5 INFO - Updating state for <DagRun exchange_rate @ 2018-06-01 00:00:00: scheduled__2018-06-01T00:00:00, externally triggered: False> considering 1 task(s)
+/home/yurii/Tools/anaconda3/lib/python3.6/site-packages/airflow/ti_deps/deps/base_ti_dep.py:94: DeprecationWarning: generator '_get_dep_statuses' raised StopIteration
+  for dep_status in self._get_dep_statuses(ti, session, dep_context):
+[2018-08-13 16:21:42,994] {jobs.py:860} DagFileProcessor5 INFO - Examining DAG run <DagRun exchange_rate @ 2018-06-01 01:00:00: scheduled__2018-06-01T01:00:00, externally triggered: False>
+[2018-08-13 16:21:42,997] {models.py:4024} DagFileProcessor5 INFO - Updating state for <DagRun exchange_rate @ 2018-06-01 01:00:00: scheduled__2018-06-01T01:00:00, externally triggered: False> considering 1 task(s)
+[2018-08-13 16:21:43,000] {jobs.py:860} DagFileProcessor5 INFO - Examining DAG run <DagRun exchange_rate @ 2018-06-01 02:00:00: scheduled__2018-06-01T02:00:00, externally triggered: False>
+[2018-08-13 16:21:43,004] {models.py:4024} DagFileProcessor5 INFO - Updating state for <DagRun exchange_rate @ 2018-06-01 02:00:00: scheduled__2018-06-01T02:00:00, externally triggered: False> considering 1 task(s)
+[2018-08-13 16:21:43,007] {jobs.py:860} DagFileProcessor5 INFO - Examining DAG run <DagRun exchange_rate @ 2018-08-13 15:21:16.392399: manual__2018-08-13T15:21:16.392399, externally triggered: True>
+[2018-08-13 16:21:43,010] {models.py:4024} DagFileProcessor5 INFO - Updating state for <DagRun exchange_rate @ 2018-08-13 15:21:16.392399: manual__2018-08-13T15:21:16.392399, externally triggered: True> considering 1 task(s)
+[2018-08-13 16:21:43,019] {jobs.py:566} DagFileProcessor5 INFO - Skipping SLA check for <DAG: exchange_rate> because no tasks in DAG have SLAs
+/home/yurii/Tools/anaconda3/lib/python3.6/site-packages/airflow/models.py:1140: DeprecationWarning: generator 'get_dep_statuses' raised StopIteration
+  dep_context):
+[2018-08-13 16:21:43,025] {models.py:1126} DagFileProcessor5 INFO - Dependencies all met for <TaskInstance: exchange_rate.do_all 2018-06-01 00:00:00 [None]>
+[2018-08-13 16:21:43,025] {jobs.py:1608} DagFileProcessor5 INFO - Creating / updating <TaskInstance: exchange_rate.do_all 2018-06-01 00:00:00 [scheduled]> in ORM
+[2018-08-13 16:21:43,030] {models.py:1126} DagFileProcessor5 INFO - Dependencies all met for <TaskInstance: exchange_rate.do_all 2018-06-01 01:00:00 [None]>
+[2018-08-13 16:21:43,030] {jobs.py:1608} DagFileProcessor5 INFO - Creating / updating <TaskInstance: exchange_rate.do_all 2018-06-01 01:00:00 [scheduled]> in ORM
+[2018-08-13 16:21:43,034] {models.py:1126} DagFileProcessor5 INFO - Dependencies all met for <TaskInstance: exchange_rate.do_all 2018-06-01 02:00:00 [None]>
+[2018-08-13 16:21:43,034] {jobs.py:1608} DagFileProcessor5 INFO - Creating / updating <TaskInstance: exchange_rate.do_all 2018-06-01 02:00:00 [scheduled]> in ORM
+[2018-08-13 16:21:43,038] {models.py:1126} DagFileProcessor5 INFO - Dependencies all met for <TaskInstance: exchange_rate.do_all 2018-08-13 15:21:16.392399 [None]>
+[2018-08-13 16:21:43,038] {jobs.py:1608} DagFileProcessor5 INFO - Creating / updating <TaskInstance: exchange_rate.do_all 2018-08-13 15:21:16.392399 [scheduled]> in ORM
+[2018-08-13 16:21:43,047] {models.py:322} DagFileProcessor5 INFO - Finding 'running' jobs without a recent heartbeat
+[2018-08-13 16:21:43,047] {models.py:328} DagFileProcessor5 INFO - Failing jobs without heartbeat after 2018-08-13 16:16:43.047914
+[2018-08-13 16:21:43,050] {jobs.py:351} DagFileProcessor5 INFO - Processing /home/yurii/Work/airflow/dags/db_connector.py took 0.462 seconds
+[2018-08-13 16:24:53,560] {jobs.py:343} DagFileProcessor3 INFO - Started process (PID=3010) to work on /home/yurii/Work/airflow/dags/db_connector.py
+[2018-08-13 16:24:53,561] {jobs.py:1521} DagFileProcessor3 INFO - Processing file /home/yurii/Work/airflow/dags/db_connector.py for tasks to queue
+[2018-08-13 16:24:53,561] {models.py:167} DagFileProcessor3 INFO - Filling up the DagBag from /home/yurii/Work/airflow/dags/db_connector.py
+[2018-08-13 16:24:53,814] {jobs.py:1535} DagFileProcessor3 INFO - DAG(s) dict_keys(['example_bash_operator', 'example_subdag_operator', 'example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_passing_params_via_test_command', 'latest_only_with_trigger', 'example_xcom', 'example_short_circuit_operator', 'test_utils', 'example_skip_dag', 'example_branch_dop_operator_v3', 'example_trigger_controller_dag', 'tutorial', 'example_http_operator', 'latest_only', 'example_branch_operator', 'example_python_operator', 'example_trigger_target_dag', 'exchange_rate']) retrieved from /home/yurii/Work/airflow/dags/db_connector.py
+[2018-08-13 16:24:53,961] {jobs.py:1169} DagFileProcessor3 INFO - Processing exchange_rate
+[2018-08-13 16:24:53,980] {jobs.py:1173} DagFileProcessor3 INFO - Created <DagRun exchange_rate @ 2018-06-01 03:00:00: scheduled__2018-06-01T03:00:00, externally triggered: False>
+[2018-08-13 16:24:53,981] {jobs.py:860} DagFileProcessor3 INFO - Examining DAG run <DagRun exchange_rate @ 2018-06-01 00:00:00: scheduled__2018-06-01T00:00:00, externally triggered: False>
+[2018-08-13 16:24:53,984] {models.py:4024} DagFileProcessor3 INFO - Updating state for <DagRun exchange_rate @ 2018-06-01 00:00:00: scheduled__2018-06-01T00:00:00, externally triggered: False> considering 1 task(s)
+/home/yurii/Tools/anaconda3/lib/python3.6/site-packages/airflow/ti_deps/deps/base_ti_dep.py:94: DeprecationWarning: generator '_get_dep_statuses' raised StopIteration
+  for dep_status in self._get_dep_statuses(ti, session, dep_context):
+[2018-08-13 16:24:53,987] {jobs.py:860} DagFileProcessor3 INFO - Examining DAG run <DagRun exchange_rate @ 2018-06-01 01:00:00: scheduled__2018-06-01T01:00:00, externally triggered: False>
+[2018-08-13 16:24:53,990] {models.py:4024} DagFileProcessor3 INFO - Updating state for <DagRun exchange_rate @ 2018-06-01 01:00:00: scheduled__2018-06-01T01:00:00, externally triggered: False> considering 1 task(s)
+[2018-08-13 16:24:53,993] {jobs.py:860} DagFileProcessor3 INFO - Examining DAG run <DagRun exchange_rate @ 2018-06-01 02:00:00: scheduled__2018-06-01T02:00:00, externally triggered: False>
+[2018-08-13 16:24:53,996] {models.py:4024} DagFileProcessor3 INFO - Updating state for <DagRun exchange_rate @ 2018-06-01 02:00:00: scheduled__2018-06-01T02:00:00, externally triggered: False> considering 1 task(s)
+[2018-08-13 16:24:53,999] {jobs.py:860} DagFileProcessor3 INFO - Examining DAG run <DagRun exchange_rate @ 2018-06-01 03:00:00: scheduled__2018-06-01T03:00:00, externally triggered: False>
+[2018-08-13 16:24:54,002] {models.py:4024} DagFileProcessor3 INFO - Updating state for <DagRun exchange_rate @ 2018-06-01 03:00:00: scheduled__2018-06-01T03:00:00, externally triggered: False> considering 1 task(s)
+[2018-08-13 16:24:54,005] {jobs.py:860} DagFileProcessor3 INFO - Examining DAG run <DagRun exchange_rate @ 2018-08-13 15:21:16.392399: manual__2018-08-13T15:21:16.392399, externally triggered: True>
+[2018-08-13 16:24:54,008] {models.py:4024} DagFileProcessor3 INFO - Updating state for <DagRun exchange_rate @ 2018-08-13 15:21:16.392399: manual__2018-08-13T15:21:16.392399, externally triggered: True> considering 1 task(s)
+[2018-08-13 16:24:54,018] {jobs.py:566} DagFileProcessor3 INFO - Skipping SLA check for <DAG: exchange_rate> because no tasks in DAG have SLAs
+/home/yurii/Tools/anaconda3/lib/python3.6/site-packages/airflow/models.py:1140: DeprecationWarning: generator 'get_dep_statuses' raised StopIteration
+  dep_context):
+[2018-08-13 16:24:54,026] {models.py:1126} DagFileProcessor3 INFO - Dependencies all met for <TaskInstance: exchange_rate.do_all 2018-06-01 00:00:00 [None]>
+[2018-08-13 16:24:54,026] {jobs.py:1608} DagFileProcessor3 INFO - Creating / updating <TaskInstance: exchange_rate.do_all 2018-06-01 00:00:00 [scheduled]> in ORM
+[2018-08-13 16:24:54,033] {models.py:1126} DagFileProcessor3 INFO - Dependencies all met for <TaskInstance: exchange_rate.do_all 2018-06-01 01:00:00 [None]>
+[2018-08-13 16:24:54,033] {jobs.py:1608} DagFileProcessor3 INFO - Creating / updating <TaskInstance: exchange_rate.do_all 2018-06-01 01:00:00 [scheduled]> in ORM
+[2018-08-13 16:24:54,040] {models.py:1126} DagFileProcessor3 INFO - Dependencies all met for <TaskInstance: exchange_rate.do_all 2018-06-01 02:00:00 [None]>
+[2018-08-13 16:24:54,040] {jobs.py:1608} DagFileProcessor3 INFO - Creating / updating <TaskInstance: exchange_rate.do_all 2018-06-01 02:00:00 [scheduled]> in ORM
+[2018-08-13 16:24:54,049] {models.py:1126} DagFileProcessor3 INFO - Dependencies all met for <TaskInstance: exchange_rate.do_all 2018-06-01 03:00:00 [None]>
+[2018-08-13 16:24:54,049] {jobs.py:1608} DagFileProcessor3 INFO - Creating / updating <TaskInstance: exchange_rate.do_all 2018-06-01 03:00:00 [scheduled]> in ORM
+[2018-08-13 16:24:54,059] {models.py:1126} DagFileProcessor3 INFO - Dependencies all met for <TaskInstance: exchange_rate.do_all 2018-08-13 15:21:16.392399 [None]>
+[2018-08-13 16:24:54,059] {jobs.py:1608} DagFileProcessor3 INFO - Creating / updating <TaskInstance: exchange_rate.do_all 2018-08-13 15:21:16.392399 [scheduled]> in ORM
+[2018-08-13 16:24:54,089] {models.py:322} DagFileProcessor3 INFO - Finding 'running' jobs without a recent heartbeat
+[2018-08-13 16:24:54,089] {models.py:328} DagFileProcessor3 INFO - Failing jobs without heartbeat after 2018-08-13 16:19:54.089469
+[2018-08-13 16:24:54,096] {jobs.py:351} DagFileProcessor3 INFO - Processing /home/yurii/Work/airflow/dags/db_connector.py took 0.537 seconds
+[2018-08-13 16:25:10,318] {jobs.py:343} DagFileProcessor1 INFO - Started process (PID=3035) to work on /home/yurii/Work/airflow/dags/db_connector.py
+[2018-08-13 16:25:10,319] {jobs.py:1521} DagFileProcessor1 INFO - Processing file /home/yurii/Work/airflow/dags/db_connector.py for tasks to queue
+[2018-08-13 16:25:10,319] {models.py:167} DagFileProcessor1 INFO - Filling up the DagBag from /home/yurii/Work/airflow/dags/db_connector.py
+[2018-08-13 16:25:10,573] {jobs.py:1535} DagFileProcessor1 INFO - DAG(s) dict_keys(['example_bash_operator', 'example_subdag_operator', 'example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_passing_params_via_test_command', 'latest_only_with_trigger', 'example_xcom', 'example_short_circuit_operator', 'test_utils', 'example_skip_dag', 'example_branch_dop_operator_v3', 'example_trigger_controller_dag', 'tutorial', 'example_http_operator', 'latest_only', 'example_branch_operator', 'example_python_operator', 'example_trigger_target_dag', 'exchange_rate']) retrieved from /home/yurii/Work/airflow/dags/db_connector.py
+[2018-08-13 16:25:10,681] {jobs.py:1169} DagFileProcessor1 INFO - Processing exchange_rate
+[2018-08-13 16:25:10,701] {jobs.py:1173} DagFileProcessor1 INFO - Created <DagRun exchange_rate @ 2018-06-01 04:00:00: scheduled__2018-06-01T04:00:00, externally triggered: False>
+[2018-08-13 16:25:10,702] {jobs.py:860} DagFileProcessor1 INFO - Examining DAG run <DagRun exchange_rate @ 2018-06-01 00:00:00: scheduled__2018-06-01T00:00:00, externally triggered: False>
+[2018-08-13 16:25:10,705] {models.py:4024} DagFileProcessor1 INFO - Updating state for <DagRun exchange_rate @ 2018-06-01 00:00:00: scheduled__2018-06-01T00:00:00, externally triggered: False> considering 1 task(s)
+/home/yurii/Tools/anaconda3/lib/python3.6/site-packages/airflow/ti_deps/deps/base_ti_dep.py:94: DeprecationWarning: generator '_get_dep_statuses' raised StopIteration
+  for dep_status in self._get_dep_statuses(ti, session, dep_context):
+[2018-08-13 16:25:10,708] {jobs.py:860} DagFileProcessor1 INFO - Examining DAG run <DagRun exchange_rate @ 2018-06-01 01:00:00: scheduled__2018-06-01T01:00:00, externally triggered: False>
+[2018-08-13 16:25:10,711] {models.py:4024} DagFileProcessor1 INFO - Updating state for <DagRun exchange_rate @ 2018-06-01 01:00:00: scheduled__2018-06-01T01:00:00, externally triggered: False> considering 1 task(s)
+[2018-08-13 16:25:10,714] {jobs.py:860} DagFileProcessor1 INFO - Examining DAG run <DagRun exchange_rate @ 2018-06-01 02:00:00: scheduled__2018-06-01T02:00:00, externally triggered: False>
+[2018-08-13 16:25:10,716] {models.py:4024} DagFileProcessor1 INFO - Updating state for <DagRun exchange_rate @ 2018-06-01 02:00:00: scheduled__2018-06-01T02:00:00, externally triggered: False> considering 1 task(s)
+[2018-08-13 16:25:10,719] {jobs.py:860} DagFileProcessor1 INFO - Examining DAG run <DagRun exchange_rate @ 2018-06-01 03:00:00: scheduled__2018-06-01T03:00:00, externally triggered: False>
+[2018-08-13 16:25:10,722] {models.py:4024} DagFileProcessor1 INFO - Updating state for <DagRun exchange_rate @ 2018-06-01 03:00:00: scheduled__2018-06-01T03:00:00, externally triggered: False> considering 1 task(s)
+[2018-08-13 16:25:10,725] {jobs.py:860} DagFileProcessor1 INFO - Examining DAG run <DagRun exchange_rate @ 2018-06-01 04:00:00: scheduled__2018-06-01T04:00:00, externally triggered: False>
+[2018-08-13 16:25:10,728] {models.py:4024} DagFileProcessor1 INFO - Updating state for <DagRun exchange_rate @ 2018-06-01 04:00:00: scheduled__2018-06-01T04:00:00, externally triggered: False> considering 1 task(s)
+[2018-08-13 16:25:10,731] {jobs.py:860} DagFileProcessor1 INFO - Examining DAG run <DagRun exchange_rate @ 2018-08-13 15:21:16.392399: manual__2018-08-13T15:21:16.392399, externally triggered: True>
+[2018-08-13 16:25:10,734] {models.py:4024} DagFileProcessor1 INFO - Updating state for <DagRun exchange_rate @ 2018-08-13 15:21:16.392399: manual__2018-08-13T15:21:16.392399, externally triggered: True> considering 1 task(s)
+[2018-08-13 16:25:10,745] {jobs.py:566} DagFileProcessor1 INFO - Skipping SLA check for <DAG: exchange_rate> because no tasks in DAG have SLAs
+/home/yurii/Tools/anaconda3/lib/python3.6/site-packages/airflow/models.py:1140: DeprecationWarning: generator 'get_dep_statuses' raised StopIteration
+  dep_context):
+[2018-08-13 16:25:10,752] {models.py:1126} DagFileProcessor1 INFO - Dependencies all met for <TaskInstance: exchange_rate.do_all 2018-06-01 00:00:00 [None]>
+[2018-08-13 16:25:10,752] {jobs.py:1608} DagFileProcessor1 INFO - Creating / updating <TaskInstance: exchange_rate.do_all 2018-06-01 00:00:00 [scheduled]> in ORM
+[2018-08-13 16:25:10,756] {models.py:1126} DagFileProcessor1 INFO - Dependencies all met for <TaskInstance: exchange_rate.do_all 2018-06-01 01:00:00 [None]>
+[2018-08-13 16:25:10,756] {jobs.py:1608} DagFileProcessor1 INFO - Creating / updating <TaskInstance: exchange_rate.do_all 2018-06-01 01:00:00 [scheduled]> in ORM
+[2018-08-13 16:25:10,761] {models.py:1126} DagFileProcessor1 INFO - Dependencies all met for <TaskInstance: exchange_rate.do_all 2018-06-01 02:00:00 [None]>
+[2018-08-13 16:25:10,761] {jobs.py:1608} DagFileProcessor1 INFO - Creating / updating <TaskInstance: exchange_rate.do_all 2018-06-01 02:00:00 [scheduled]> in ORM
+[2018-08-13 16:25:10,765] {models.py:1126} DagFileProcessor1 INFO - Dependencies all met for <TaskInstance: exchange_rate.do_all 2018-06-01 03:00:00 [None]>
+[2018-08-13 16:25:10,765] {jobs.py:1608} DagFileProcessor1 INFO - Creating / updating <TaskInstance: exchange_rate.do_all 2018-06-01 03:00:00 [scheduled]> in ORM
+[2018-08-13 16:25:10,772] {models.py:1126} DagFileProcessor1 INFO - Dependencies all met for <TaskInstance: exchange_rate.do_all 2018-06-01 04:00:00 [None]>
+[2018-08-13 16:25:10,772] {jobs.py:1608} DagFileProcessor1 INFO - Creating / updating <TaskInstance: exchange_rate.do_all 2018-06-01 04:00:00 [scheduled]> in ORM
+[2018-08-13 16:25:10,779] {models.py:1126} DagFileProcessor1 INFO - Dependencies all met for <TaskInstance: exchange_rate.do_all 2018-08-13 15:21:16.392399 [None]>
+[2018-08-13 16:25:10,779] {jobs.py:1608} DagFileProcessor1 INFO - Creating / updating <TaskInstance: exchange_rate.do_all 2018-08-13 15:21:16.392399 [scheduled]> in ORM
+[2018-08-13 16:25:10,794] {models.py:322} DagFileProcessor1 INFO - Finding 'running' jobs without a recent heartbeat
+[2018-08-13 16:25:10,794] {models.py:328} DagFileProcessor1 INFO - Failing jobs without heartbeat after 2018-08-13 16:20:10.794864
+[2018-08-13 16:25:10,797] {jobs.py:351} DagFileProcessor1 INFO - Processing /home/yurii/Work/airflow/dags/db_connector.py took 0.479 seconds
+[2018-08-13 16:40:38,453] {jobs.py:343} DagFileProcessor5 INFO - Started process (PID=3278) to work on /home/yurii/Work/airflow/dags/db_connector.py
+[2018-08-13 16:40:38,454] {jobs.py:1521} DagFileProcessor5 INFO - Processing file /home/yurii/Work/airflow/dags/db_connector.py for tasks to queue
+[2018-08-13 16:40:38,454] {models.py:167} DagFileProcessor5 INFO - Filling up the DagBag from /home/yurii/Work/airflow/dags/db_connector.py
+[2018-08-13 16:40:38,707] {jobs.py:1535} DagFileProcessor5 INFO - DAG(s) dict_keys(['example_bash_operator', 'example_subdag_operator', 'example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_passing_params_via_test_command', 'latest_only_with_trigger', 'example_xcom', 'example_short_circuit_operator', 'test_utils', 'example_skip_dag', 'example_branch_dop_operator_v3', 'example_trigger_controller_dag', 'tutorial', 'example_http_operator', 'latest_only', 'example_branch_operator', 'example_python_operator', 'example_trigger_target_dag', 'exchange_rate']) retrieved from /home/yurii/Work/airflow/dags/db_connector.py
+[2018-08-13 16:40:38,808] {jobs.py:1169} DagFileProcessor5 INFO - Processing exchange_rate
+[2018-08-13 16:40:38,828] {jobs.py:1173} DagFileProcessor5 INFO - Created <DagRun exchange_rate @ 2018-06-01 05:00:00: scheduled__2018-06-01T05:00:00, externally triggered: False>
+[2018-08-13 16:40:38,829] {jobs.py:860} DagFileProcessor5 INFO - Examining DAG run <DagRun exchange_rate @ 2018-06-01 00:00:00: scheduled__2018-06-01T00:00:00, externally triggered: False>
+[2018-08-13 16:40:38,832] {models.py:4024} DagFileProcessor5 INFO - Updating state for <DagRun exchange_rate @ 2018-06-01 00:00:00: scheduled__2018-06-01T00:00:00, externally triggered: False> considering 1 task(s)
+/home/yurii/Tools/anaconda3/lib/python3.6/site-packages/airflow/ti_deps/deps/base_ti_dep.py:94: DeprecationWarning: generator '_get_dep_statuses' raised StopIteration
+  for dep_status in self._get_dep_statuses(ti, session, dep_context):
+[2018-08-13 16:40:38,835] {jobs.py:860} DagFileProcessor5 INFO - Examining DAG run <DagRun exchange_rate @ 2018-06-01 01:00:00: scheduled__2018-06-01T01:00:00, externally triggered: False>
+[2018-08-13 16:40:38,838] {models.py:4024} DagFileProcessor5 INFO - Updating state for <DagRun exchange_rate @ 2018-06-01 01:00:00: scheduled__2018-06-01T01:00:00, externally triggered: False> considering 1 task(s)
+[2018-08-13 16:40:38,841] {jobs.py:860} DagFileProcessor5 INFO - Examining DAG run <DagRun exchange_rate @ 2018-06-01 02:00:00: scheduled__2018-06-01T02:00:00, externally triggered: False>
+[2018-08-13 16:40:38,844] {models.py:4024} DagFileProcessor5 INFO - Updating state for <DagRun exchange_rate @ 2018-06-01 02:00:00: scheduled__2018-06-01T02:00:00, externally triggered: False> considering 1 task(s)
+[2018-08-13 16:40:38,847] {jobs.py:860} DagFileProcessor5 INFO - Examining DAG run <DagRun exchange_rate @ 2018-06-01 03:00:00: scheduled__2018-06-01T03:00:00, externally triggered: False>
+[2018-08-13 16:40:38,850] {models.py:4024} DagFileProcessor5 INFO - Updating state for <DagRun exchange_rate @ 2018-06-01 03:00:00: scheduled__2018-06-01T03:00:00, externally triggered: False> considering 1 task(s)
+[2018-08-13 16:40:38,853] {jobs.py:860} DagFileProcessor5 INFO - Examining DAG run <DagRun exchange_rate @ 2018-06-01 04:00:00: scheduled__2018-06-01T04:00:00, externally triggered: False>
+[2018-08-13 16:40:38,855] {models.py:4024} DagFileProcessor5 INFO - Updating state for <DagRun exchange_rate @ 2018-06-01 04:00:00: scheduled__2018-06-01T04:00:00, externally triggered: False> considering 1 task(s)
+[2018-08-13 16:40:38,859] {jobs.py:860} DagFileProcessor5 INFO - Examining DAG run <DagRun exchange_rate @ 2018-06-01 05:00:00: scheduled__2018-06-01T05:00:00, externally triggered: False>
+[2018-08-13 16:40:38,861] {models.py:4024} DagFileProcessor5 INFO - Updating state for <DagRun exchange_rate @ 2018-06-01 05:00:00: scheduled__2018-06-01T05:00:00, externally triggered: False> considering 1 task(s)
+[2018-08-13 16:40:38,864] {jobs.py:860} DagFileProcessor5 INFO - Examining DAG run <DagRun exchange_rate @ 2018-08-13 15:21:16.392399: manual__2018-08-13T15:21:16.392399, externally triggered: True>
+[2018-08-13 16:40:38,867] {models.py:4024} DagFileProcessor5 INFO - Updating state for <DagRun exchange_rate @ 2018-08-13 15:21:16.392399: manual__2018-08-13T15:21:16.392399, externally triggered: True> considering 1 task(s)
+[2018-08-13 16:40:38,879] {jobs.py:566} DagFileProcessor5 INFO - Skipping SLA check for <DAG: exchange_rate> because no tasks in DAG have SLAs
+/home/yurii/Tools/anaconda3/lib/python3.6/site-packages/airflow/models.py:1140: DeprecationWarning: generator 'get_dep_statuses' raised StopIteration
+  dep_context):
+[2018-08-13 16:40:38,887] {models.py:1126} DagFileProcessor5 INFO - Dependencies all met for <TaskInstance: exchange_rate.do_all 2018-06-01 00:00:00 [None]>
+[2018-08-13 16:40:38,887] {jobs.py:1608} DagFileProcessor5 INFO - Creating / updating <TaskInstance: exchange_rate.do_all 2018-06-01 00:00:00 [scheduled]> in ORM
+[2018-08-13 16:40:38,891] {models.py:1126} DagFileProcessor5 INFO - Dependencies all met for <TaskInstance: exchange_rate.do_all 2018-06-01 01:00:00 [None]>
+[2018-08-13 16:40:38,891] {jobs.py:1608} DagFileProcessor5 INFO - Creating / updating <TaskInstance: exchange_rate.do_all 2018-06-01 01:00:00 [scheduled]> in ORM
+[2018-08-13 16:40:38,895] {models.py:1126} DagFileProcessor5 INFO - Dependencies all met for <TaskInstance: exchange_rate.do_all 2018-06-01 02:00:00 [None]>
+[2018-08-13 16:40:38,895] {jobs.py:1608} DagFileProcessor5 INFO - Creating / updating <TaskInstance: exchange_rate.do_all 2018-06-01 02:00:00 [scheduled]> in ORM
+[2018-08-13 16:40:38,900] {models.py:1126} DagFileProcessor5 INFO - Dependencies all met for <TaskInstance: exchange_rate.do_all 2018-06-01 03:00:00 [None]>
+[2018-08-13 16:40:38,900] {jobs.py:1608} DagFileProcessor5 INFO - Creating / updating <TaskInstance: exchange_rate.do_all 2018-06-01 03:00:00 [scheduled]> in ORM
+[2018-08-13 16:40:38,903] {models.py:1126} DagFileProcessor5 INFO - Dependencies all met for <TaskInstance: exchange_rate.do_all 2018-06-01 04:00:00 [None]>
+[2018-08-13 16:40:38,904] {jobs.py:1608} DagFileProcessor5 INFO - Creating / updating <TaskInstance: exchange_rate.do_all 2018-06-01 04:00:00 [scheduled]> in ORM
+[2018-08-13 16:40:38,907] {models.py:1126} DagFileProcessor5 INFO - Dependencies all met for <TaskInstance: exchange_rate.do_all 2018-06-01 05:00:00 [None]>
+[2018-08-13 16:40:38,907] {jobs.py:1608} DagFileProcessor5 INFO - Creating / updating <TaskInstance: exchange_rate.do_all 2018-06-01 05:00:00 [scheduled]> in ORM
+[2018-08-13 16:40:38,911] {models.py:1126} DagFileProcessor5 INFO - Dependencies all met for <TaskInstance: exchange_rate.do_all 2018-08-13 15:21:16.392399 [None]>
+[2018-08-13 16:40:38,911] {jobs.py:1608} DagFileProcessor5 INFO - Creating / updating <TaskInstance: exchange_rate.do_all 2018-08-13 15:21:16.392399 [scheduled]> in ORM
+[2018-08-13 16:40:38,922] {models.py:322} DagFileProcessor5 INFO - Finding 'running' jobs without a recent heartbeat
+[2018-08-13 16:40:38,922] {models.py:328} DagFileProcessor5 INFO - Failing jobs without heartbeat after 2018-08-13 16:35:38.922888
+[2018-08-13 16:40:38,925] {jobs.py:351} DagFileProcessor5 INFO - Processing /home/yurii/Work/airflow/dags/db_connector.py took 0.472 seconds
+[2018-08-13 16:52:00,617] {jobs.py:343} DagFileProcessor6 INFO - Started process (PID=3875) to work on /home/yurii/Work/airflow/dags/db_connector.py
+[2018-08-13 16:52:00,618] {jobs.py:1521} DagFileProcessor6 INFO - Processing file /home/yurii/Work/airflow/dags/db_connector.py for tasks to queue
+[2018-08-13 16:52:00,618] {models.py:167} DagFileProcessor6 INFO - Filling up the DagBag from /home/yurii/Work/airflow/dags/db_connector.py
+[2018-08-13 16:52:00,858] {jobs.py:1535} DagFileProcessor6 INFO - DAG(s) dict_keys(['example_bash_operator', 'example_subdag_operator', 'example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_passing_params_via_test_command', 'latest_only_with_trigger', 'example_xcom', 'example_short_circuit_operator', 'test_utils', 'example_skip_dag', 'example_branch_dop_operator_v3', 'example_trigger_controller_dag', 'tutorial', 'example_http_operator', 'latest_only', 'example_branch_operator', 'example_python_operator', 'example_trigger_target_dag', 'exchange_rate']) retrieved from /home/yurii/Work/airflow/dags/db_connector.py
+[2018-08-13 16:52:01,004] {jobs.py:1169} DagFileProcessor6 INFO - Processing exchange_rate
+[2018-08-13 16:52:01,023] {jobs.py:1173} DagFileProcessor6 INFO - Created <DagRun exchange_rate @ 2018-06-01 06:00:00: scheduled__2018-06-01T06:00:00, externally triggered: False>
+[2018-08-13 16:52:01,024] {jobs.py:860} DagFileProcessor6 INFO - Examining DAG run <DagRun exchange_rate @ 2018-06-01 00:00:00: scheduled__2018-06-01T00:00:00, externally triggered: False>
+[2018-08-13 16:52:01,027] {models.py:4024} DagFileProcessor6 INFO - Updating state for <DagRun exchange_rate @ 2018-06-01 00:00:00: scheduled__2018-06-01T00:00:00, externally triggered: False> considering 1 task(s)
+/home/yurii/Tools/anaconda3/lib/python3.6/site-packages/airflow/ti_deps/deps/base_ti_dep.py:94: DeprecationWarning: generator '_get_dep_statuses' raised StopIteration
+  for dep_status in self._get_dep_statuses(ti, session, dep_context):
+[2018-08-13 16:52:01,030] {jobs.py:860} DagFileProcessor6 INFO - Examining DAG run <DagRun exchange_rate @ 2018-06-01 01:00:00: scheduled__2018-06-01T01:00:00, externally triggered: False>
+[2018-08-13 16:52:01,033] {models.py:4024} DagFileProcessor6 INFO - Updating state for <DagRun exchange_rate @ 2018-06-01 01:00:00: scheduled__2018-06-01T01:00:00, externally triggered: False> considering 1 task(s)
+[2018-08-13 16:52:01,036] {jobs.py:860} DagFileProcessor6 INFO - Examining DAG run <DagRun exchange_rate @ 2018-06-01 02:00:00: scheduled__2018-06-01T02:00:00, externally triggered: False>
+[2018-08-13 16:52:01,039] {models.py:4024} DagFileProcessor6 INFO - Updating state for <DagRun exchange_rate @ 2018-06-01 02:00:00: scheduled__2018-06-01T02:00:00, externally triggered: False> considering 1 task(s)
+[2018-08-13 16:52:01,042] {jobs.py:860} DagFileProcessor6 INFO - Examining DAG run <DagRun exchange_rate @ 2018-06-01 03:00:00: scheduled__2018-06-01T03:00:00, externally triggered: False>
+[2018-08-13 16:52:01,045] {models.py:4024} DagFileProcessor6 INFO - Updating state for <DagRun exchange_rate @ 2018-06-01 03:00:00: scheduled__2018-06-01T03:00:00, externally triggered: False> considering 1 task(s)
+[2018-08-13 16:52:01,048] {jobs.py:860} DagFileProcessor6 INFO - Examining DAG run <DagRun exchange_rate @ 2018-06-01 04:00:00: scheduled__2018-06-01T04:00:00, externally triggered: False>
+[2018-08-13 16:52:01,050] {models.py:4024} DagFileProcessor6 INFO - Updating state for <DagRun exchange_rate @ 2018-06-01 04:00:00: scheduled__2018-06-01T04:00:00, externally triggered: False> considering 1 task(s)
+[2018-08-13 16:52:01,054] {jobs.py:860} DagFileProcessor6 INFO - Examining DAG run <DagRun exchange_rate @ 2018-06-01 05:00:00: scheduled__2018-06-01T05:00:00, externally triggered: False>
+[2018-08-13 16:52:01,056] {models.py:4024} DagFileProcessor6 INFO - Updating state for <DagRun exchange_rate @ 2018-06-01 05:00:00: scheduled__2018-06-01T05:00:00, externally triggered: False> considering 1 task(s)
+[2018-08-13 16:52:01,059] {jobs.py:860} DagFileProcessor6 INFO - Examining DAG run <DagRun exchange_rate @ 2018-06-01 06:00:00: scheduled__2018-06-01T06:00:00, externally triggered: False>
+[2018-08-13 16:52:01,062] {models.py:4024} DagFileProcessor6 INFO - Updating state for <DagRun exchange_rate @ 2018-06-01 06:00:00: scheduled__2018-06-01T06:00:00, externally triggered: False> considering 1 task(s)
+[2018-08-13 16:52:01,065] {jobs.py:860} DagFileProcessor6 INFO - Examining DAG run <DagRun exchange_rate @ 2018-08-13 15:21:16.392399: manual__2018-08-13T15:21:16.392399, externally triggered: True>
+[2018-08-13 16:52:01,067] {models.py:4024} DagFileProcessor6 INFO - Updating state for <DagRun exchange_rate @ 2018-08-13 15:21:16.392399: manual__2018-08-13T15:21:16.392399, externally triggered: True> considering 1 task(s)
+[2018-08-13 16:52:01,081] {jobs.py:566} DagFileProcessor6 INFO - Skipping SLA check for <DAG: exchange_rate> because no tasks in DAG have SLAs
+/home/yurii/Tools/anaconda3/lib/python3.6/site-packages/airflow/models.py:1140: DeprecationWarning: generator 'get_dep_statuses' raised StopIteration
+  dep_context):
+[2018-08-13 16:52:01,089] {models.py:1126} DagFileProcessor6 INFO - Dependencies all met for <TaskInstance: exchange_rate.do_all 2018-06-01 00:00:00 [None]>
+[2018-08-13 16:52:01,089] {jobs.py:1608} DagFileProcessor6 INFO - Creating / updating <TaskInstance: exchange_rate.do_all 2018-06-01 00:00:00 [scheduled]> in ORM
+[2018-08-13 16:52:01,093] {models.py:1126} DagFileProcessor6 INFO - Dependencies all met for <TaskInstance: exchange_rate.do_all 2018-06-01 01:00:00 [None]>
+[2018-08-13 16:52:01,093] {jobs.py:1608} DagFileProcessor6 INFO - Creating / updating <TaskInstance: exchange_rate.do_all 2018-06-01 01:00:00 [scheduled]> in ORM
+[2018-08-13 16:52:01,097] {models.py:1126} DagFileProcessor6 INFO - Dependencies all met for <TaskInstance: exchange_rate.do_all 2018-06-01 02:00:00 [None]>
+[2018-08-13 16:52:01,097] {jobs.py:1608} DagFileProcessor6 INFO - Creating / updating <TaskInstance: exchange_rate.do_all 2018-06-01 02:00:00 [scheduled]> in ORM
+[2018-08-13 16:52:01,100] {models.py:1126} DagFileProcessor6 INFO - Dependencies all met for <TaskInstance: exchange_rate.do_all 2018-06-01 03:00:00 [None]>
+[2018-08-13 16:52:01,100] {jobs.py:1608} DagFileProcessor6 INFO - Creating / updating <TaskInstance: exchange_rate.do_all 2018-06-01 03:00:00 [scheduled]> in ORM
+[2018-08-13 16:52:01,105] {models.py:1126} DagFileProcessor6 INFO - Dependencies all met for <TaskInstance: exchange_rate.do_all 2018-06-01 04:00:00 [None]>
+[2018-08-13 16:52:01,105] {jobs.py:1608} DagFileProcessor6 INFO - Creating / updating <TaskInstance: exchange_rate.do_all 2018-06-01 04:00:00 [scheduled]> in ORM
+[2018-08-13 16:52:01,109] {models.py:1126} DagFileProcessor6 INFO - Dependencies all met for <TaskInstance: exchange_rate.do_all 2018-06-01 05:00:00 [None]>
+[2018-08-13 16:52:01,109] {jobs.py:1608} DagFileProcessor6 INFO - Creating / updating <TaskInstance: exchange_rate.do_all 2018-06-01 05:00:00 [scheduled]> in ORM
+[2018-08-13 16:52:01,113] {models.py:1126} DagFileProcessor6 INFO - Dependencies all met for <TaskInstance: exchange_rate.do_all 2018-06-01 06:00:00 [None]>
+[2018-08-13 16:52:01,113] {jobs.py:1608} DagFileProcessor6 INFO - Creating / updating <TaskInstance: exchange_rate.do_all 2018-06-01 06:00:00 [scheduled]> in ORM
+[2018-08-13 16:52:01,116] {models.py:1126} DagFileProcessor6 INFO - Dependencies all met for <TaskInstance: exchange_rate.do_all 2018-08-13 15:21:16.392399 [None]>
+[2018-08-13 16:52:01,116] {jobs.py:1608} DagFileProcessor6 INFO - Creating / updating <TaskInstance: exchange_rate.do_all 2018-08-13 15:21:16.392399 [scheduled]> in ORM
+[2018-08-13 16:52:01,127] {models.py:322} DagFileProcessor6 INFO - Finding 'running' jobs without a recent heartbeat
+[2018-08-13 16:52:01,128] {models.py:328} DagFileProcessor6 INFO - Failing jobs without heartbeat after 2018-08-13 16:47:01.128060
+[2018-08-13 16:52:01,130] {jobs.py:351} DagFileProcessor6 INFO - Processing /home/yurii/Work/airflow/dags/db_connector.py took 0.513 seconds
+[2018-08-13 17:09:10,371] {jobs.py:343} DagFileProcessor2 INFO - Started process (PID=5258) to work on /home/yurii/Work/airflow/dags/db_connector.py
+[2018-08-13 17:09:10,372] {jobs.py:1521} DagFileProcessor2 INFO - Processing file /home/yurii/Work/airflow/dags/db_connector.py for tasks to queue
+[2018-08-13 17:09:10,372] {models.py:167} DagFileProcessor2 INFO - Filling up the DagBag from /home/yurii/Work/airflow/dags/db_connector.py
+[2018-08-13 17:09:10,623] {jobs.py:1535} DagFileProcessor2 INFO - DAG(s) dict_keys(['example_bash_operator', 'example_subdag_operator', 'example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_passing_params_via_test_command', 'latest_only_with_trigger', 'example_xcom', 'example_short_circuit_operator', 'test_utils', 'example_skip_dag', 'example_branch_dop_operator_v3', 'example_trigger_controller_dag', 'tutorial', 'example_http_operator', 'latest_only', 'example_branch_operator', 'example_python_operator', 'example_trigger_target_dag', 'exchange_rate']) retrieved from /home/yurii/Work/airflow/dags/db_connector.py
+[2018-08-13 17:09:10,874] {models.py:322} DagFileProcessor2 INFO - Finding 'running' jobs without a recent heartbeat
+[2018-08-13 17:09:10,874] {models.py:328} DagFileProcessor2 INFO - Failing jobs without heartbeat after 2018-08-13 17:04:10.874364
+[2018-08-13 17:09:10,877] {jobs.py:351} DagFileProcessor2 INFO - Processing /home/yurii/Work/airflow/dags/db_connector.py took 0.506 seconds
+[2018-08-13 17:09:27,539] {jobs.py:343} DagFileProcessor5 INFO - Started process (PID=5291) to work on /home/yurii/Work/airflow/dags/db_connector.py
+[2018-08-13 17:09:27,540] {jobs.py:1521} DagFileProcessor5 INFO - Processing file /home/yurii/Work/airflow/dags/db_connector.py for tasks to queue
+[2018-08-13 17:09:27,540] {models.py:167} DagFileProcessor5 INFO - Filling up the DagBag from /home/yurii/Work/airflow/dags/db_connector.py
+[2018-08-13 17:09:27,790] {jobs.py:1535} DagFileProcessor5 INFO - DAG(s) dict_keys(['example_bash_operator', 'example_subdag_operator', 'example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_passing_params_via_test_command', 'latest_only_with_trigger', 'example_xcom', 'example_short_circuit_operator', 'test_utils', 'example_skip_dag', 'example_branch_dop_operator_v3', 'example_trigger_controller_dag', 'tutorial', 'example_http_operator', 'latest_only', 'example_branch_operator', 'example_python_operator', 'example_trigger_target_dag', 'exchange_rate']) retrieved from /home/yurii/Work/airflow/dags/db_connector.py
+[2018-08-13 17:09:27,984] {models.py:322} DagFileProcessor5 INFO - Finding 'running' jobs without a recent heartbeat
+[2018-08-13 17:09:27,984] {models.py:328} DagFileProcessor5 INFO - Failing jobs without heartbeat after 2018-08-13 17:04:27.984441
+[2018-08-13 17:09:27,987] {jobs.py:351} DagFileProcessor5 INFO - Processing /home/yurii/Work/airflow/dags/db_connector.py took 0.448 seconds
+[2018-08-13 17:15:30,529] {jobs.py:343} DagFileProcessor4 INFO - Started process (PID=5708) to work on /home/yurii/Work/airflow/dags/db_connector.py
+[2018-08-13 17:15:30,532] {jobs.py:1521} DagFileProcessor4 INFO - Processing file /home/yurii/Work/airflow/dags/db_connector.py for tasks to queue
+[2018-08-13 17:15:30,533] {models.py:167} DagFileProcessor4 INFO - Filling up the DagBag from /home/yurii/Work/airflow/dags/db_connector.py
+[2018-08-13 17:15:30,643] {jobs.py:354} DagFileProcessor4 ERROR - Got an exception! Propagating...
+Traceback (most recent call last):
+  File "/home/yurii/Tools/anaconda3/lib/python3.6/site-packages/airflow/jobs.py", line 346, in helper
+    pickle_dags)
+  File "/home/yurii/Tools/anaconda3/lib/python3.6/site-packages/airflow/utils/db.py", line 53, in wrapper
+    result = func(*args, **kwargs)
+  File "/home/yurii/Tools/anaconda3/lib/python3.6/site-packages/airflow/jobs.py", line 1526, in process_file
+    dagbag = models.DagBag(file_path)
+  File "/home/yurii/Tools/anaconda3/lib/python3.6/site-packages/airflow/models.py", line 179, in __init__
+    self.collect_dags(example_dag_folder)
+  File "/home/yurii/Tools/anaconda3/lib/python3.6/site-packages/airflow/models.py", line 415, in collect_dags
+    filepath, only_if_updated=only_if_updated)
+  File "/home/yurii/Tools/anaconda3/lib/python3.6/site-packages/airflow/models.py", line 263, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/home/yurii/Tools/anaconda3/lib/python3.6/imp.py", line 172, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 684, in _load
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/yurii/Tools/anaconda3/lib/python3.6/site-packages/airflow/example_dags/example_xcom.py", line 28, in <module>
+    default_args=args)
+  File "/home/yurii/Tools/anaconda3/lib/python3.6/site-packages/airflow/models.py", line 2663, in __init__
+    self.fileloc = inspect.getsourcefile(inspect.stack()[1][0])
+  File "/home/yurii/Tools/anaconda3/lib/python3.6/inspect.py", line 1494, in stack
+    return getouterframes(sys._getframe(1), context)
+  File "/home/yurii/Tools/anaconda3/lib/python3.6/inspect.py", line 1471, in getouterframes
+    frameinfo = (frame,) + getframeinfo(frame, context)
+  File "/home/yurii/Tools/anaconda3/lib/python3.6/inspect.py", line 1445, in getframeinfo
+    lines, lnum = findsource(frame)
+  File "/home/yurii/Tools/anaconda3/lib/python3.6/inspect.py", line 768, in findsource
+    file = getsourcefile(object)
+  File "/home/yurii/Tools/anaconda3/lib/python3.6/inspect.py", line 696, in getsourcefile
+    if getattr(getmodule(object, filename), '__loader__', None) is not None:
+  File "/home/yurii/Tools/anaconda3/lib/python3.6/inspect.py", line 734, in getmodule
+    f = module.__file__
+  File "/home/yurii/Tools/anaconda3/lib/python3.6/site-packages/airflow/bin/cli.py", line 69, in sigint_handler
+    sys.exit(0)
+SystemExit: 0
+[2018-08-13 17:19:12,251] {jobs.py:343} DagFileProcessor4 INFO - Started process (PID=5997) to work on /home/yurii/Work/airflow/dags/db_connector.py
+[2018-08-13 17:19:12,252] {jobs.py:1521} DagFileProcessor4 INFO - Processing file /home/yurii/Work/airflow/dags/db_connector.py for tasks to queue
+[2018-08-13 17:19:12,252] {models.py:167} DagFileProcessor4 INFO - Filling up the DagBag from /home/yurii/Work/airflow/dags/db_connector.py
+[2018-08-13 17:19:12,499] {jobs.py:1535} DagFileProcessor4 INFO - DAG(s) dict_keys(['example_bash_operator', 'example_subdag_operator', 'example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_passing_params_via_test_command', 'latest_only_with_trigger', 'example_xcom', 'example_short_circuit_operator', 'test_utils', 'example_skip_dag', 'example_branch_dop_operator_v3', 'example_trigger_controller_dag', 'tutorial', 'example_http_operator', 'latest_only', 'example_branch_operator', 'example_python_operator', 'example_trigger_target_dag', 'exchange_rate']) retrieved from /home/yurii/Work/airflow/dags/db_connector.py
+[2018-08-13 17:19:12,605] {jobs.py:1169} DagFileProcessor4 INFO - Processing exchange_rate
+[2018-08-13 17:19:12,624] {jobs.py:1173} DagFileProcessor4 INFO - Created <DagRun exchange_rate @ 2018-06-01 07:00:00: scheduled__2018-06-01T07:00:00, externally triggered: False>
+[2018-08-13 17:19:12,626] {jobs.py:860} DagFileProcessor4 INFO - Examining DAG run <DagRun exchange_rate @ 2018-06-01 00:00:00: scheduled__2018-06-01T00:00:00, externally triggered: False>
+[2018-08-13 17:19:12,629] {models.py:4024} DagFileProcessor4 INFO - Updating state for <DagRun exchange_rate @ 2018-06-01 00:00:00: scheduled__2018-06-01T00:00:00, externally triggered: False> considering 1 task(s)
+/home/yurii/Tools/anaconda3/lib/python3.6/site-packages/airflow/ti_deps/deps/base_ti_dep.py:94: DeprecationWarning: generator '_get_dep_statuses' raised StopIteration
+  for dep_status in self._get_dep_statuses(ti, session, dep_context):
+[2018-08-13 17:19:12,632] {jobs.py:860} DagFileProcessor4 INFO - Examining DAG run <DagRun exchange_rate @ 2018-06-01 01:00:00: scheduled__2018-06-01T01:00:00, externally triggered: False>
+[2018-08-13 17:19:12,636] {models.py:4024} DagFileProcessor4 INFO - Updating state for <DagRun exchange_rate @ 2018-06-01 01:00:00: scheduled__2018-06-01T01:00:00, externally triggered: False> considering 1 task(s)
+[2018-08-13 17:19:12,638] {jobs.py:860} DagFileProcessor4 INFO - Examining DAG run <DagRun exchange_rate @ 2018-06-01 02:00:00: scheduled__2018-06-01T02:00:00, externally triggered: False>
+[2018-08-13 17:19:12,641] {models.py:4024} DagFileProcessor4 INFO - Updating state for <DagRun exchange_rate @ 2018-06-01 02:00:00: scheduled__2018-06-01T02:00:00, externally triggered: False> considering 1 task(s)
+[2018-08-13 17:19:12,644] {jobs.py:860} DagFileProcessor4 INFO - Examining DAG run <DagRun exchange_rate @ 2018-06-01 03:00:00: scheduled__2018-06-01T03:00:00, externally triggered: False>
+[2018-08-13 17:19:12,647] {models.py:4024} DagFileProcessor4 INFO - Updating state for <DagRun exchange_rate @ 2018-06-01 03:00:00: scheduled__2018-06-01T03:00:00, externally triggered: False> considering 1 task(s)
+[2018-08-13 17:19:12,650] {jobs.py:860} DagFileProcessor4 INFO - Examining DAG run <DagRun exchange_rate @ 2018-06-01 04:00:00: scheduled__2018-06-01T04:00:00, externally triggered: False>
+[2018-08-13 17:19:12,653] {models.py:4024} DagFileProcessor4 INFO - Updating state for <DagRun exchange_rate @ 2018-06-01 04:00:00: scheduled__2018-06-01T04:00:00, externally triggered: False> considering 1 task(s)
+[2018-08-13 17:19:12,656] {jobs.py:860} DagFileProcessor4 INFO - Examining DAG run <DagRun exchange_rate @ 2018-06-01 05:00:00: scheduled__2018-06-01T05:00:00, externally triggered: False>
+[2018-08-13 17:19:12,659] {models.py:4024} DagFileProcessor4 INFO - Updating state for <DagRun exchange_rate @ 2018-06-01 05:00:00: scheduled__2018-06-01T05:00:00, externally triggered: False> considering 1 task(s)
+[2018-08-13 17:19:12,662] {jobs.py:860} DagFileProcessor4 INFO - Examining DAG run <DagRun exchange_rate @ 2018-06-01 06:00:00: scheduled__2018-06-01T06:00:00, externally triggered: False>
+[2018-08-13 17:19:12,664] {models.py:4024} DagFileProcessor4 INFO - Updating state for <DagRun exchange_rate @ 2018-06-01 06:00:00: scheduled__2018-06-01T06:00:00, externally triggered: False> considering 1 task(s)
+[2018-08-13 17:19:12,667] {jobs.py:860} DagFileProcessor4 INFO - Examining DAG run <DagRun exchange_rate @ 2018-06-01 07:00:00: scheduled__2018-06-01T07:00:00, externally triggered: False>
+[2018-08-13 17:19:12,670] {models.py:4024} DagFileProcessor4 INFO - Updating state for <DagRun exchange_rate @ 2018-06-01 07:00:00: scheduled__2018-06-01T07:00:00, externally triggered: False> considering 1 task(s)
+[2018-08-13 17:19:12,673] {jobs.py:860} DagFileProcessor4 INFO - Examining DAG run <DagRun exchange_rate @ 2018-08-13 15:21:16.392399: manual__2018-08-13T15:21:16.392399, externally triggered: True>
+[2018-08-13 17:19:12,675] {models.py:4024} DagFileProcessor4 INFO - Updating state for <DagRun exchange_rate @ 2018-08-13 15:21:16.392399: manual__2018-08-13T15:21:16.392399, externally triggered: True> considering 1 task(s)
+[2018-08-13 17:19:12,691] {jobs.py:566} DagFileProcessor4 INFO - Skipping SLA check for <DAG: exchange_rate> because no tasks in DAG have SLAs
+/home/yurii/Tools/anaconda3/lib/python3.6/site-packages/airflow/models.py:1140: DeprecationWarning: generator 'get_dep_statuses' raised StopIteration
+  dep_context):
+[2018-08-13 17:19:12,699] {models.py:1126} DagFileProcessor4 INFO - Dependencies all met for <TaskInstance: exchange_rate.do_all 2018-06-01 00:00:00 [None]>
+[2018-08-13 17:19:12,699] {jobs.py:1608} DagFileProcessor4 INFO - Creating / updating <TaskInstance: exchange_rate.do_all 2018-06-01 00:00:00 [scheduled]> in ORM
+[2018-08-13 17:19:12,703] {models.py:1126} DagFileProcessor4 INFO - Dependencies all met for <TaskInstance: exchange_rate.do_all 2018-06-01 01:00:00 [None]>
+[2018-08-13 17:19:12,703] {jobs.py:1608} DagFileProcessor4 INFO - Creating / updating <TaskInstance: exchange_rate.do_all 2018-06-01 01:00:00 [scheduled]> in ORM
+[2018-08-13 17:19:12,707] {models.py:1126} DagFileProcessor4 INFO - Dependencies all met for <TaskInstance: exchange_rate.do_all 2018-06-01 02:00:00 [None]>
+[2018-08-13 17:19:12,707] {jobs.py:1608} DagFileProcessor4 INFO - Creating / updating <TaskInstance: exchange_rate.do_all 2018-06-01 02:00:00 [scheduled]> in ORM
+[2018-08-13 17:19:12,712] {models.py:1126} DagFileProcessor4 INFO - Dependencies all met for <TaskInstance: exchange_rate.do_all 2018-06-01 03:00:00 [None]>
+[2018-08-13 17:19:12,712] {jobs.py:1608} DagFileProcessor4 INFO - Creating / updating <TaskInstance: exchange_rate.do_all 2018-06-01 03:00:00 [scheduled]> in ORM
+[2018-08-13 17:19:12,716] {models.py:1126} DagFileProcessor4 INFO - Dependencies all met for <TaskInstance: exchange_rate.do_all 2018-06-01 04:00:00 [None]>
+[2018-08-13 17:19:12,716] {jobs.py:1608} DagFileProcessor4 INFO - Creating / updating <TaskInstance: exchange_rate.do_all 2018-06-01 04:00:00 [scheduled]> in ORM
+[2018-08-13 17:19:12,720] {models.py:1126} DagFileProcessor4 INFO - Dependencies all met for <TaskInstance: exchange_rate.do_all 2018-06-01 05:00:00 [None]>
+[2018-08-13 17:19:12,720] {jobs.py:1608} DagFileProcessor4 INFO - Creating / updating <TaskInstance: exchange_rate.do_all 2018-06-01 05:00:00 [scheduled]> in ORM
+[2018-08-13 17:19:12,724] {models.py:1126} DagFileProcessor4 INFO - Dependencies all met for <TaskInstance: exchange_rate.do_all 2018-06-01 06:00:00 [None]>
+[2018-08-13 17:19:12,724] {jobs.py:1608} DagFileProcessor4 INFO - Creating / updating <TaskInstance: exchange_rate.do_all 2018-06-01 06:00:00 [scheduled]> in ORM
+[2018-08-13 17:19:12,729] {models.py:1126} DagFileProcessor4 INFO - Dependencies all met for <TaskInstance: exchange_rate.do_all 2018-06-01 07:00:00 [None]>
+[2018-08-13 17:19:12,729] {jobs.py:1608} DagFileProcessor4 INFO - Creating / updating <TaskInstance: exchange_rate.do_all 2018-06-01 07:00:00 [scheduled]> in ORM
+[2018-08-13 17:19:12,733] {models.py:1126} DagFileProcessor4 INFO - Dependencies all met for <TaskInstance: exchange_rate.do_all 2018-08-13 15:21:16.392399 [None]>
+[2018-08-13 17:19:12,733] {jobs.py:1608} DagFileProcessor4 INFO - Creating / updating <TaskInstance: exchange_rate.do_all 2018-08-13 15:21:16.392399 [scheduled]> in ORM
+[2018-08-13 17:19:12,743] {models.py:322} DagFileProcessor4 INFO - Finding 'running' jobs without a recent heartbeat
+[2018-08-13 17:19:12,743] {models.py:328} DagFileProcessor4 INFO - Failing jobs without heartbeat after 2018-08-13 17:14:12.743560
+[2018-08-13 17:19:12,745] {jobs.py:351} DagFileProcessor4 INFO - Processing /home/yurii/Work/airflow/dags/db_connector.py took 0.495 seconds

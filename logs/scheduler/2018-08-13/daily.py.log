@@ -1,0 +1,198 @@
+[2018-08-13 15:04:47,952] {jobs.py:343} DagFileProcessor9 INFO - Started process (PID=32142) to work on /home/yurii/Work/airflow/dags/daily.py
+[2018-08-13 15:04:47,953] {jobs.py:1521} DagFileProcessor9 INFO - Processing file /home/yurii/Work/airflow/dags/daily.py for tasks to queue
+[2018-08-13 15:04:47,953] {models.py:167} DagFileProcessor9 INFO - Filling up the DagBag from /home/yurii/Work/airflow/dags/daily.py
+[2018-08-13 15:04:48,203] {jobs.py:1535} DagFileProcessor9 INFO - DAG(s) dict_keys(['example_bash_operator', 'example_subdag_operator', 'example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_passing_params_via_test_command', 'latest_only_with_trigger', 'example_xcom', 'example_short_circuit_operator', 'test_utils', 'example_skip_dag', 'example_branch_dop_operator_v3', 'example_trigger_controller_dag', 'tutorial', 'example_http_operator', 'latest_only', 'example_branch_operator', 'example_python_operator', 'example_trigger_target_dag', 'daily_dag']) retrieved from /home/yurii/Work/airflow/dags/daily.py
+[2018-08-13 15:04:48,330] {models.py:322} DagFileProcessor9 INFO - Finding 'running' jobs without a recent heartbeat
+[2018-08-13 15:04:48,330] {models.py:328} DagFileProcessor9 INFO - Failing jobs without heartbeat after 2018-08-13 14:59:48.330555
+[2018-08-13 15:04:48,333] {jobs.py:351} DagFileProcessor9 INFO - Processing /home/yurii/Work/airflow/dags/daily.py took 0.382 seconds
+[2018-08-13 15:04:54,018] {jobs.py:343} DagFileProcessor20 INFO - Started process (PID=32180) to work on /home/yurii/Work/airflow/dags/daily.py
+[2018-08-13 15:04:54,019] {jobs.py:1521} DagFileProcessor20 INFO - Processing file /home/yurii/Work/airflow/dags/daily.py for tasks to queue
+[2018-08-13 15:04:54,019] {models.py:167} DagFileProcessor20 INFO - Filling up the DagBag from /home/yurii/Work/airflow/dags/daily.py
+[2018-08-13 15:04:54,275] {jobs.py:1535} DagFileProcessor20 INFO - DAG(s) dict_keys(['example_bash_operator', 'example_subdag_operator', 'example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_passing_params_via_test_command', 'latest_only_with_trigger', 'example_xcom', 'example_short_circuit_operator', 'test_utils', 'example_skip_dag', 'example_branch_dop_operator_v3', 'example_trigger_controller_dag', 'tutorial', 'example_http_operator', 'latest_only', 'example_branch_operator', 'example_python_operator', 'example_trigger_target_dag', 'daily_dag']) retrieved from /home/yurii/Work/airflow/dags/daily.py
+[2018-08-13 15:04:54,396] {models.py:322} DagFileProcessor20 INFO - Finding 'running' jobs without a recent heartbeat
+[2018-08-13 15:04:54,396] {models.py:328} DagFileProcessor20 INFO - Failing jobs without heartbeat after 2018-08-13 14:59:54.396716
+[2018-08-13 15:04:54,400] {jobs.py:351} DagFileProcessor20 INFO - Processing /home/yurii/Work/airflow/dags/daily.py took 0.381 seconds
+[2018-08-13 15:05:00,105] {jobs.py:343} DagFileProcessor31 INFO - Started process (PID=32237) to work on /home/yurii/Work/airflow/dags/daily.py
+[2018-08-13 15:05:00,106] {jobs.py:1521} DagFileProcessor31 INFO - Processing file /home/yurii/Work/airflow/dags/daily.py for tasks to queue
+[2018-08-13 15:05:00,106] {models.py:167} DagFileProcessor31 INFO - Filling up the DagBag from /home/yurii/Work/airflow/dags/daily.py
+[2018-08-13 15:05:00,361] {jobs.py:1535} DagFileProcessor31 INFO - DAG(s) dict_keys(['example_bash_operator', 'example_subdag_operator', 'example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_passing_params_via_test_command', 'latest_only_with_trigger', 'example_xcom', 'example_short_circuit_operator', 'test_utils', 'example_skip_dag', 'example_branch_dop_operator_v3', 'example_trigger_controller_dag', 'tutorial', 'example_http_operator', 'latest_only', 'example_branch_operator', 'example_python_operator', 'example_trigger_target_dag', 'daily_dag']) retrieved from /home/yurii/Work/airflow/dags/daily.py
+[2018-08-13 15:05:00,524] {models.py:322} DagFileProcessor31 INFO - Finding 'running' jobs without a recent heartbeat
+[2018-08-13 15:05:00,524] {models.py:328} DagFileProcessor31 INFO - Failing jobs without heartbeat after 2018-08-13 15:00:00.524814
+[2018-08-13 15:05:00,528] {jobs.py:351} DagFileProcessor31 INFO - Processing /home/yurii/Work/airflow/dags/daily.py took 0.423 seconds
+[2018-08-13 15:05:06,179] {jobs.py:343} DagFileProcessor42 INFO - Started process (PID=32273) to work on /home/yurii/Work/airflow/dags/daily.py
+[2018-08-13 15:05:06,180] {jobs.py:1521} DagFileProcessor42 INFO - Processing file /home/yurii/Work/airflow/dags/daily.py for tasks to queue
+[2018-08-13 15:05:06,181] {models.py:167} DagFileProcessor42 INFO - Filling up the DagBag from /home/yurii/Work/airflow/dags/daily.py
+[2018-08-13 15:05:06,433] {jobs.py:1535} DagFileProcessor42 INFO - DAG(s) dict_keys(['example_bash_operator', 'example_subdag_operator', 'example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_passing_params_via_test_command', 'latest_only_with_trigger', 'example_xcom', 'example_short_circuit_operator', 'test_utils', 'example_skip_dag', 'example_branch_dop_operator_v3', 'example_trigger_controller_dag', 'tutorial', 'example_http_operator', 'latest_only', 'example_branch_operator', 'example_python_operator', 'example_trigger_target_dag', 'daily_dag']) retrieved from /home/yurii/Work/airflow/dags/daily.py
+[2018-08-13 15:05:06,581] {models.py:322} DagFileProcessor42 INFO - Finding 'running' jobs without a recent heartbeat
+[2018-08-13 15:05:06,581] {models.py:328} DagFileProcessor42 INFO - Failing jobs without heartbeat after 2018-08-13 15:00:06.581707
+[2018-08-13 15:05:06,585] {jobs.py:351} DagFileProcessor42 INFO - Processing /home/yurii/Work/airflow/dags/daily.py took 0.405 seconds
+[2018-08-13 15:05:12,261] {jobs.py:343} DagFileProcessor53 INFO - Started process (PID=32308) to work on /home/yurii/Work/airflow/dags/daily.py
+[2018-08-13 15:05:12,262] {jobs.py:1521} DagFileProcessor53 INFO - Processing file /home/yurii/Work/airflow/dags/daily.py for tasks to queue
+[2018-08-13 15:05:12,262] {models.py:167} DagFileProcessor53 INFO - Filling up the DagBag from /home/yurii/Work/airflow/dags/daily.py
+[2018-08-13 15:05:12,513] {jobs.py:1535} DagFileProcessor53 INFO - DAG(s) dict_keys(['example_bash_operator', 'example_subdag_operator', 'example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_passing_params_via_test_command', 'latest_only_with_trigger', 'example_xcom', 'example_short_circuit_operator', 'test_utils', 'example_skip_dag', 'example_branch_dop_operator_v3', 'example_trigger_controller_dag', 'tutorial', 'example_http_operator', 'latest_only', 'example_branch_operator', 'example_python_operator', 'example_trigger_target_dag', 'daily_dag']) retrieved from /home/yurii/Work/airflow/dags/daily.py
+[2018-08-13 15:05:12,633] {models.py:322} DagFileProcessor53 INFO - Finding 'running' jobs without a recent heartbeat
+[2018-08-13 15:05:12,633] {models.py:328} DagFileProcessor53 INFO - Failing jobs without heartbeat after 2018-08-13 15:00:12.633668
+[2018-08-13 15:05:12,637] {jobs.py:351} DagFileProcessor53 INFO - Processing /home/yurii/Work/airflow/dags/daily.py took 0.376 seconds
+[2018-08-13 15:05:18,343] {jobs.py:343} DagFileProcessor64 INFO - Started process (PID=32360) to work on /home/yurii/Work/airflow/dags/daily.py
+[2018-08-13 15:05:18,344] {jobs.py:1521} DagFileProcessor64 INFO - Processing file /home/yurii/Work/airflow/dags/daily.py for tasks to queue
+[2018-08-13 15:05:18,344] {models.py:167} DagFileProcessor64 INFO - Filling up the DagBag from /home/yurii/Work/airflow/dags/daily.py
+[2018-08-13 15:05:18,679] {jobs.py:1535} DagFileProcessor64 INFO - DAG(s) dict_keys(['example_bash_operator', 'example_subdag_operator', 'example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_passing_params_via_test_command', 'latest_only_with_trigger', 'example_xcom', 'example_short_circuit_operator', 'test_utils', 'example_skip_dag', 'example_branch_dop_operator_v3', 'example_trigger_controller_dag', 'tutorial', 'example_http_operator', 'latest_only', 'example_branch_operator', 'example_python_operator', 'example_trigger_target_dag', 'daily_dag']) retrieved from /home/yurii/Work/airflow/dags/daily.py
+[2018-08-13 15:05:18,844] {models.py:322} DagFileProcessor64 INFO - Finding 'running' jobs without a recent heartbeat
+[2018-08-13 15:05:18,844] {models.py:328} DagFileProcessor64 INFO - Failing jobs without heartbeat after 2018-08-13 15:00:18.844475
+[2018-08-13 15:05:18,854] {jobs.py:351} DagFileProcessor64 INFO - Processing /home/yurii/Work/airflow/dags/daily.py took 0.511 seconds
+[2018-08-13 15:05:24,409] {jobs.py:343} DagFileProcessor75 INFO - Started process (PID=32435) to work on /home/yurii/Work/airflow/dags/daily.py
+[2018-08-13 15:05:24,411] {jobs.py:1521} DagFileProcessor75 INFO - Processing file /home/yurii/Work/airflow/dags/daily.py for tasks to queue
+[2018-08-13 15:05:24,411] {models.py:167} DagFileProcessor75 INFO - Filling up the DagBag from /home/yurii/Work/airflow/dags/daily.py
+[2018-08-13 15:05:24,737] {jobs.py:1535} DagFileProcessor75 INFO - DAG(s) dict_keys(['example_bash_operator', 'example_subdag_operator', 'example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_passing_params_via_test_command', 'latest_only_with_trigger', 'example_xcom', 'example_short_circuit_operator', 'test_utils', 'example_skip_dag', 'example_branch_dop_operator_v3', 'example_trigger_controller_dag', 'tutorial', 'example_http_operator', 'latest_only', 'example_branch_operator', 'example_python_operator', 'example_trigger_target_dag', 'daily_dag']) retrieved from /home/yurii/Work/airflow/dags/daily.py
+[2018-08-13 15:05:24,852] {models.py:322} DagFileProcessor75 INFO - Finding 'running' jobs without a recent heartbeat
+[2018-08-13 15:05:24,852] {models.py:328} DagFileProcessor75 INFO - Failing jobs without heartbeat after 2018-08-13 15:00:24.852222
+[2018-08-13 15:05:24,855] {jobs.py:351} DagFileProcessor75 INFO - Processing /home/yurii/Work/airflow/dags/daily.py took 0.446 seconds
+[2018-08-13 15:05:30,488] {jobs.py:343} DagFileProcessor86 INFO - Started process (PID=32486) to work on /home/yurii/Work/airflow/dags/daily.py
+[2018-08-13 15:05:30,489] {jobs.py:1521} DagFileProcessor86 INFO - Processing file /home/yurii/Work/airflow/dags/daily.py for tasks to queue
+[2018-08-13 15:05:30,489] {models.py:167} DagFileProcessor86 INFO - Filling up the DagBag from /home/yurii/Work/airflow/dags/daily.py
+[2018-08-13 15:05:30,743] {jobs.py:1535} DagFileProcessor86 INFO - DAG(s) dict_keys(['example_bash_operator', 'example_subdag_operator', 'example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_passing_params_via_test_command', 'latest_only_with_trigger', 'example_xcom', 'example_short_circuit_operator', 'test_utils', 'example_skip_dag', 'example_branch_dop_operator_v3', 'example_trigger_controller_dag', 'tutorial', 'example_http_operator', 'latest_only', 'example_branch_operator', 'example_python_operator', 'example_trigger_target_dag', 'daily_dag']) retrieved from /home/yurii/Work/airflow/dags/daily.py
+[2018-08-13 15:05:30,860] {models.py:322} DagFileProcessor86 INFO - Finding 'running' jobs without a recent heartbeat
+[2018-08-13 15:05:30,860] {models.py:328} DagFileProcessor86 INFO - Failing jobs without heartbeat after 2018-08-13 15:00:30.860843
+[2018-08-13 15:05:30,864] {jobs.py:351} DagFileProcessor86 INFO - Processing /home/yurii/Work/airflow/dags/daily.py took 0.376 seconds
+[2018-08-13 15:05:36,557] {jobs.py:343} DagFileProcessor97 INFO - Started process (PID=32549) to work on /home/yurii/Work/airflow/dags/daily.py
+[2018-08-13 15:05:36,560] {jobs.py:1521} DagFileProcessor97 INFO - Processing file /home/yurii/Work/airflow/dags/daily.py for tasks to queue
+[2018-08-13 15:05:36,560] {models.py:167} DagFileProcessor97 INFO - Filling up the DagBag from /home/yurii/Work/airflow/dags/daily.py
+[2018-08-13 15:05:36,818] {jobs.py:1535} DagFileProcessor97 INFO - DAG(s) dict_keys(['example_bash_operator', 'example_subdag_operator', 'example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_passing_params_via_test_command', 'latest_only_with_trigger', 'example_xcom', 'example_short_circuit_operator', 'test_utils', 'example_skip_dag', 'example_branch_dop_operator_v3', 'example_trigger_controller_dag', 'tutorial', 'example_http_operator', 'latest_only', 'example_branch_operator', 'example_python_operator', 'example_trigger_target_dag', 'daily_dag']) retrieved from /home/yurii/Work/airflow/dags/daily.py
+[2018-08-13 15:05:37,003] {models.py:322} DagFileProcessor97 INFO - Finding 'running' jobs without a recent heartbeat
+[2018-08-13 15:05:37,003] {models.py:328} DagFileProcessor97 INFO - Failing jobs without heartbeat after 2018-08-13 15:00:37.003287
+[2018-08-13 15:05:37,007] {jobs.py:351} DagFileProcessor97 INFO - Processing /home/yurii/Work/airflow/dags/daily.py took 0.449 seconds
+[2018-08-13 15:05:42,629] {jobs.py:343} DagFileProcessor108 INFO - Started process (PID=32588) to work on /home/yurii/Work/airflow/dags/daily.py
+[2018-08-13 15:05:42,630] {jobs.py:1521} DagFileProcessor108 INFO - Processing file /home/yurii/Work/airflow/dags/daily.py for tasks to queue
+[2018-08-13 15:05:42,630] {models.py:167} DagFileProcessor108 INFO - Filling up the DagBag from /home/yurii/Work/airflow/dags/daily.py
+[2018-08-13 15:05:42,890] {jobs.py:1535} DagFileProcessor108 INFO - DAG(s) dict_keys(['example_bash_operator', 'example_subdag_operator', 'example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_passing_params_via_test_command', 'latest_only_with_trigger', 'example_xcom', 'example_short_circuit_operator', 'test_utils', 'example_skip_dag', 'example_branch_dop_operator_v3', 'example_trigger_controller_dag', 'tutorial', 'example_http_operator', 'latest_only', 'example_branch_operator', 'example_python_operator', 'example_trigger_target_dag', 'daily_dag']) retrieved from /home/yurii/Work/airflow/dags/daily.py
+[2018-08-13 15:05:43,007] {models.py:322} DagFileProcessor108 INFO - Finding 'running' jobs without a recent heartbeat
+[2018-08-13 15:05:43,007] {models.py:328} DagFileProcessor108 INFO - Failing jobs without heartbeat after 2018-08-13 15:00:43.007371
+[2018-08-13 15:05:43,011] {jobs.py:351} DagFileProcessor108 INFO - Processing /home/yurii/Work/airflow/dags/daily.py took 0.382 seconds
+[2018-08-13 15:05:48,713] {jobs.py:343} DagFileProcessor119 INFO - Started process (PID=32623) to work on /home/yurii/Work/airflow/dags/daily.py
+[2018-08-13 15:05:48,715] {jobs.py:1521} DagFileProcessor119 INFO - Processing file /home/yurii/Work/airflow/dags/daily.py for tasks to queue
+[2018-08-13 15:05:48,715] {models.py:167} DagFileProcessor119 INFO - Filling up the DagBag from /home/yurii/Work/airflow/dags/daily.py
+[2018-08-13 15:05:49,020] {jobs.py:1535} DagFileProcessor119 INFO - DAG(s) dict_keys(['example_bash_operator', 'example_subdag_operator', 'example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_passing_params_via_test_command', 'latest_only_with_trigger', 'example_xcom', 'example_short_circuit_operator', 'test_utils', 'example_skip_dag', 'example_branch_dop_operator_v3', 'example_trigger_controller_dag', 'tutorial', 'example_http_operator', 'latest_only', 'example_branch_operator', 'example_python_operator', 'example_trigger_target_dag', 'daily_dag']) retrieved from /home/yurii/Work/airflow/dags/daily.py
+[2018-08-13 15:05:49,136] {models.py:322} DagFileProcessor119 INFO - Finding 'running' jobs without a recent heartbeat
+[2018-08-13 15:05:49,136] {models.py:328} DagFileProcessor119 INFO - Failing jobs without heartbeat after 2018-08-13 15:00:49.136822
+[2018-08-13 15:05:49,140] {jobs.py:351} DagFileProcessor119 INFO - Processing /home/yurii/Work/airflow/dags/daily.py took 0.426 seconds
+[2018-08-13 15:23:19,242] {jobs.py:343} DagFileProcessor4 INFO - Started process (PID=1122) to work on /home/yurii/Work/airflow/dags/daily.py
+[2018-08-13 15:23:19,243] {jobs.py:1521} DagFileProcessor4 INFO - Processing file /home/yurii/Work/airflow/dags/daily.py for tasks to queue
+[2018-08-13 15:23:19,243] {models.py:167} DagFileProcessor4 INFO - Filling up the DagBag from /home/yurii/Work/airflow/dags/daily.py
+[2018-08-13 15:23:19,320] {jobs.py:354} DagFileProcessor4 ERROR - Got an exception! Propagating...
+Traceback (most recent call last):
+  File "/home/yurii/Tools/anaconda3/lib/python3.6/site-packages/airflow/jobs.py", line 346, in helper
+    pickle_dags)
+  File "/home/yurii/Tools/anaconda3/lib/python3.6/site-packages/airflow/utils/db.py", line 53, in wrapper
+    result = func(*args, **kwargs)
+  File "/home/yurii/Tools/anaconda3/lib/python3.6/site-packages/airflow/jobs.py", line 1526, in process_file
+    dagbag = models.DagBag(file_path)
+  File "/home/yurii/Tools/anaconda3/lib/python3.6/site-packages/airflow/models.py", line 179, in __init__
+    self.collect_dags(example_dag_folder)
+  File "/home/yurii/Tools/anaconda3/lib/python3.6/site-packages/airflow/models.py", line 415, in collect_dags
+    filepath, only_if_updated=only_if_updated)
+  File "/home/yurii/Tools/anaconda3/lib/python3.6/site-packages/airflow/models.py", line 263, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/home/yurii/Tools/anaconda3/lib/python3.6/imp.py", line 172, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 684, in _load
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/yurii/Tools/anaconda3/lib/python3.6/site-packages/airflow/example_dags/example_subdag_operator.py", line 57, in <module>
+    subdag=subdag(DAG_NAME, 'section-2', args),
+  File "/home/yurii/Tools/anaconda3/lib/python3.6/site-packages/airflow/example_dags/subdags/subdag.py", line 23, in subdag
+    schedule_interval="@daily",
+  File "/home/yurii/Tools/anaconda3/lib/python3.6/site-packages/airflow/models.py", line 2663, in __init__
+    self.fileloc = inspect.getsourcefile(inspect.stack()[1][0])
+  File "/home/yurii/Tools/anaconda3/lib/python3.6/inspect.py", line 1494, in stack
+    return getouterframes(sys._getframe(1), context)
+  File "/home/yurii/Tools/anaconda3/lib/python3.6/inspect.py", line 1471, in getouterframes
+    frameinfo = (frame,) + getframeinfo(frame, context)
+  File "/home/yurii/Tools/anaconda3/lib/python3.6/inspect.py", line 1441, in getframeinfo
+    filename = getsourcefile(frame) or getfile(frame)
+  File "/home/yurii/Tools/anaconda3/lib/python3.6/inspect.py", line 696, in getsourcefile
+    if getattr(getmodule(object, filename), '__loader__', None) is not None:
+  File "/home/yurii/Tools/anaconda3/lib/python3.6/inspect.py", line 747, in getmodule
+    if not hasattr(object, '__name__'):
+  File "/home/yurii/Tools/anaconda3/lib/python3.6/site-packages/airflow/bin/cli.py", line 69, in sigint_handler
+    sys.exit(0)
+SystemExit: 0
+[2018-08-13 16:21:41,579] {jobs.py:343} DagFileProcessor3 INFO - Started process (PID=2827) to work on /home/yurii/Work/airflow/dags/daily.py
+[2018-08-13 16:21:41,580] {jobs.py:1521} DagFileProcessor3 INFO - Processing file /home/yurii/Work/airflow/dags/daily.py for tasks to queue
+[2018-08-13 16:21:41,580] {models.py:167} DagFileProcessor3 INFO - Filling up the DagBag from /home/yurii/Work/airflow/dags/daily.py
+[2018-08-13 16:21:41,832] {jobs.py:1535} DagFileProcessor3 INFO - DAG(s) dict_keys(['example_bash_operator', 'example_subdag_operator', 'example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_passing_params_via_test_command', 'latest_only_with_trigger', 'example_xcom', 'example_short_circuit_operator', 'test_utils', 'example_skip_dag', 'example_branch_dop_operator_v3', 'example_trigger_controller_dag', 'tutorial', 'example_http_operator', 'latest_only', 'example_branch_operator', 'example_python_operator', 'example_trigger_target_dag', 'daily_dag']) retrieved from /home/yurii/Work/airflow/dags/daily.py
+[2018-08-13 16:21:41,947] {models.py:322} DagFileProcessor3 INFO - Finding 'running' jobs without a recent heartbeat
+[2018-08-13 16:21:41,947] {models.py:328} DagFileProcessor3 INFO - Failing jobs without heartbeat after 2018-08-13 16:16:41.947940
+[2018-08-13 16:21:41,951] {jobs.py:351} DagFileProcessor3 INFO - Processing /home/yurii/Work/airflow/dags/daily.py took 0.372 seconds
+[2018-08-13 16:24:52,545] {jobs.py:343} DagFileProcessor1 INFO - Started process (PID=3003) to work on /home/yurii/Work/airflow/dags/daily.py
+[2018-08-13 16:24:52,546] {jobs.py:1521} DagFileProcessor1 INFO - Processing file /home/yurii/Work/airflow/dags/daily.py for tasks to queue
+[2018-08-13 16:24:52,546] {models.py:167} DagFileProcessor1 INFO - Filling up the DagBag from /home/yurii/Work/airflow/dags/daily.py
+[2018-08-13 16:24:52,798] {jobs.py:1535} DagFileProcessor1 INFO - DAG(s) dict_keys(['example_bash_operator', 'example_subdag_operator', 'example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_passing_params_via_test_command', 'latest_only_with_trigger', 'example_xcom', 'example_short_circuit_operator', 'test_utils', 'example_skip_dag', 'example_branch_dop_operator_v3', 'example_trigger_controller_dag', 'tutorial', 'example_http_operator', 'latest_only', 'example_branch_operator', 'example_python_operator', 'example_trigger_target_dag', 'daily_dag']) retrieved from /home/yurii/Work/airflow/dags/daily.py
+[2018-08-13 16:24:52,942] {models.py:322} DagFileProcessor1 INFO - Finding 'running' jobs without a recent heartbeat
+[2018-08-13 16:24:52,942] {models.py:328} DagFileProcessor1 INFO - Failing jobs without heartbeat after 2018-08-13 16:19:52.942480
+[2018-08-13 16:24:52,945] {jobs.py:351} DagFileProcessor1 INFO - Processing /home/yurii/Work/airflow/dags/daily.py took 0.400 seconds
+[2018-08-13 16:40:39,460] {jobs.py:343} DagFileProcessor6 INFO - Started process (PID=3283) to work on /home/yurii/Work/airflow/dags/daily.py
+[2018-08-13 16:40:39,462] {jobs.py:1521} DagFileProcessor6 INFO - Processing file /home/yurii/Work/airflow/dags/daily.py for tasks to queue
+[2018-08-13 16:40:39,462] {models.py:167} DagFileProcessor6 INFO - Filling up the DagBag from /home/yurii/Work/airflow/dags/daily.py
+[2018-08-13 16:40:39,564] {jobs.py:354} DagFileProcessor6 ERROR - Got an exception! Propagating...
+Traceback (most recent call last):
+  File "/home/yurii/Tools/anaconda3/lib/python3.6/site-packages/airflow/jobs.py", line 346, in helper
+    pickle_dags)
+  File "/home/yurii/Tools/anaconda3/lib/python3.6/site-packages/airflow/utils/db.py", line 53, in wrapper
+    result = func(*args, **kwargs)
+  File "/home/yurii/Tools/anaconda3/lib/python3.6/site-packages/airflow/jobs.py", line 1526, in process_file
+    dagbag = models.DagBag(file_path)
+  File "/home/yurii/Tools/anaconda3/lib/python3.6/site-packages/airflow/models.py", line 179, in __init__
+    self.collect_dags(example_dag_folder)
+  File "/home/yurii/Tools/anaconda3/lib/python3.6/site-packages/airflow/models.py", line 415, in collect_dags
+    filepath, only_if_updated=only_if_updated)
+  File "/home/yurii/Tools/anaconda3/lib/python3.6/site-packages/airflow/models.py", line 263, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/home/yurii/Tools/anaconda3/lib/python3.6/imp.py", line 172, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 684, in _load
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/yurii/Tools/anaconda3/lib/python3.6/site-packages/airflow/example_dags/example_latest_only_with_trigger.py", line 28, in <module>
+    start_date=airflow.utils.dates.days_ago(2),
+  File "/home/yurii/Tools/anaconda3/lib/python3.6/site-packages/airflow/models.py", line 2663, in __init__
+    self.fileloc = inspect.getsourcefile(inspect.stack()[1][0])
+  File "/home/yurii/Tools/anaconda3/lib/python3.6/inspect.py", line 1494, in stack
+    return getouterframes(sys._getframe(1), context)
+  File "/home/yurii/Tools/anaconda3/lib/python3.6/inspect.py", line 1471, in getouterframes
+    frameinfo = (frame,) + getframeinfo(frame, context)
+  File "/home/yurii/Tools/anaconda3/lib/python3.6/inspect.py", line 1441, in getframeinfo
+    filename = getsourcefile(frame) or getfile(frame)
+  File "/home/yurii/Tools/anaconda3/lib/python3.6/inspect.py", line 696, in getsourcefile
+    if getattr(getmodule(object, filename), '__loader__', None) is not None:
+  File "/home/yurii/Tools/anaconda3/lib/python3.6/inspect.py", line 725, in getmodule
+    file = getabsfile(object, _filename)
+  File "/home/yurii/Tools/anaconda3/lib/python3.6/inspect.py", line 709, in getabsfile
+    return os.path.normcase(os.path.abspath(_filename))
+  File "/home/yurii/Tools/anaconda3/lib/python3.6/posixpath.py", line 54, in normcase
+    s = os.fspath(s)
+  File "/home/yurii/Tools/anaconda3/lib/python3.6/site-packages/airflow/bin/cli.py", line 69, in sigint_handler
+    sys.exit(0)
+SystemExit: 0
+[2018-08-13 16:51:57,591] {jobs.py:343} DagFileProcessor1 INFO - Started process (PID=3857) to work on /home/yurii/Work/airflow/dags/daily.py
+[2018-08-13 16:51:57,592] {jobs.py:1521} DagFileProcessor1 INFO - Processing file /home/yurii/Work/airflow/dags/daily.py for tasks to queue
+[2018-08-13 16:51:57,592] {models.py:167} DagFileProcessor1 INFO - Filling up the DagBag from /home/yurii/Work/airflow/dags/daily.py
+[2018-08-13 16:51:57,836] {jobs.py:1535} DagFileProcessor1 INFO - DAG(s) dict_keys(['example_bash_operator', 'example_subdag_operator', 'example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_passing_params_via_test_command', 'latest_only_with_trigger', 'example_xcom', 'example_short_circuit_operator', 'test_utils', 'example_skip_dag', 'example_branch_dop_operator_v3', 'example_trigger_controller_dag', 'tutorial', 'example_http_operator', 'latest_only', 'example_branch_operator', 'example_python_operator', 'example_trigger_target_dag', 'daily_dag']) retrieved from /home/yurii/Work/airflow/dags/daily.py
+[2018-08-13 16:51:57,947] {models.py:322} DagFileProcessor1 INFO - Finding 'running' jobs without a recent heartbeat
+[2018-08-13 16:51:57,947] {models.py:328} DagFileProcessor1 INFO - Failing jobs without heartbeat after 2018-08-13 16:46:57.947512
+[2018-08-13 16:51:57,950] {jobs.py:351} DagFileProcessor1 INFO - Processing /home/yurii/Work/airflow/dags/daily.py took 0.359 seconds
+[2018-08-13 17:09:09,359] {jobs.py:343} DagFileProcessor0 INFO - Started process (PID=5252) to work on /home/yurii/Work/airflow/dags/daily.py
+[2018-08-13 17:09:09,361] {jobs.py:1521} DagFileProcessor0 INFO - Processing file /home/yurii/Work/airflow/dags/daily.py for tasks to queue
+[2018-08-13 17:09:09,361] {models.py:167} DagFileProcessor0 INFO - Filling up the DagBag from /home/yurii/Work/airflow/dags/daily.py
+[2018-08-13 17:09:09,619] {jobs.py:1535} DagFileProcessor0 INFO - DAG(s) dict_keys(['example_bash_operator', 'example_subdag_operator', 'example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_passing_params_via_test_command', 'latest_only_with_trigger', 'example_xcom', 'example_short_circuit_operator', 'test_utils', 'example_skip_dag', 'example_branch_dop_operator_v3', 'example_trigger_controller_dag', 'tutorial', 'example_http_operator', 'latest_only', 'example_branch_operator', 'example_python_operator', 'example_trigger_target_dag', 'daily_dag']) retrieved from /home/yurii/Work/airflow/dags/daily.py
+[2018-08-13 17:09:09,882] {models.py:322} DagFileProcessor0 INFO - Finding 'running' jobs without a recent heartbeat
+[2018-08-13 17:09:09,883] {models.py:328} DagFileProcessor0 INFO - Failing jobs without heartbeat after 2018-08-13 17:04:09.883098
+[2018-08-13 17:09:09,887] {jobs.py:351} DagFileProcessor0 INFO - Processing /home/yurii/Work/airflow/dags/daily.py took 0.528 seconds
+[2018-08-13 17:19:12,253] {jobs.py:343} DagFileProcessor5 INFO - Started process (PID=5998) to work on /home/yurii/Work/airflow/dags/daily.py
+[2018-08-13 17:19:12,254] {jobs.py:1521} DagFileProcessor5 INFO - Processing file /home/yurii/Work/airflow/dags/daily.py for tasks to queue
+[2018-08-13 17:19:12,254] {models.py:167} DagFileProcessor5 INFO - Filling up the DagBag from /home/yurii/Work/airflow/dags/daily.py
+[2018-08-13 17:19:12,500] {jobs.py:1535} DagFileProcessor5 INFO - DAG(s) dict_keys(['example_bash_operator', 'example_subdag_operator', 'example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_passing_params_via_test_command', 'latest_only_with_trigger', 'example_xcom', 'example_short_circuit_operator', 'test_utils', 'example_skip_dag', 'example_branch_dop_operator_v3', 'example_trigger_controller_dag', 'tutorial', 'example_http_operator', 'latest_only', 'example_branch_operator', 'example_python_operator', 'example_trigger_target_dag', 'daily_dag']) retrieved from /home/yurii/Work/airflow/dags/daily.py
+[2018-08-13 17:19:12,623] {models.py:322} DagFileProcessor5 INFO - Finding 'running' jobs without a recent heartbeat
+[2018-08-13 17:19:12,623] {models.py:328} DagFileProcessor5 INFO - Failing jobs without heartbeat after 2018-08-13 17:14:12.623689
+[2018-08-13 17:19:12,626] {jobs.py:351} DagFileProcessor5 INFO - Processing /home/yurii/Work/airflow/dags/daily.py took 0.373 seconds
