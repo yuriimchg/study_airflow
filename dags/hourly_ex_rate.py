@@ -5,19 +5,22 @@ from airflow import DAG
 from airflow.operators.python_operator import PythonOperator
 from airflow.operators.dummy_operator import DummyOperator
 
-currency_list = ('usd', 'eur', 'plz', 'czk', 'gbp')
+currency_list = ('usd', 'eur', 'plz', 'czk', 'gbp', 'btc')
 def update_table(currency):
     """
     Connect to the PostgreSQL database
     """
+    input = ExchangeRate(currency)
     conn = None
     updated_rows = 0
-    now = datetime.now()
+    ###
+    now = datetime.now().strftime('%Y-%m-%d, %H:%M')
     sql = """
-INSERT INTO {0} (date_time, buy, sell)
-VALUES (%s, %s, %s);
+INSERT INTO currencies_hourly (date_time, ccy, pair, provider, buy, sell)
+/**/
+VALUES (%s, %s, %s, %s, %s, %s);
 """.format(currency)
-    data = (str(now), float(ExchangeRate(currency).buy()), float(ExchangeRate(currency).sell()))
+    data = (now, input.ccy(),f'{input.base_ccy()}/{input.ccy()}', input.bank(), float(input.buy()), float(input.sell()))
     try:
         # connect to the PostgreSQL server
         print('Trying to connect to the server')
@@ -42,15 +45,14 @@ VALUES (%s, %s, %s);
         if conn is not None:
             conn.close()
             print('Closed Database connection')
-def total_run():
+def run():
     for currency in currency_list:
         update_table(currency)
-
 
 default_args = {
 'owner': 'yurii',
 'depends_on_past': False,
-'start_date': datetime(2018, 6, 1),
+'start_date': datetime(2018, 8, 11),
 'email': ['airflow@example.com'],
 'email_on_failure': ['yurii.machuga@ralabs.org'],
 'email_on_retry': False,
@@ -58,8 +60,8 @@ default_args = {
 'backfill':False,
 }
 
-money_dag = DAG('exchange_rate', default_args=default_args, catchup=False, schedule_interval='@hourly')
+hourly_currency_dag = DAG('currency_hourly', default_args=default_args, catchup=False, schedule_interval='@hourly')
 
-t1 = PythonOperator(task_id='do_all', python_callable=total_run, dag=money_dag)
-t0 = DummyOperator(task_id='do_nothing', dag=money_dag)
+t1 = PythonOperator(task_id='do_all', python_callable=run, dag=hourly_currency_dag)
+t0 = DummyOperator(task_id='do_nothing', dag=hourly_currency_dag)
 t1 >> t0
