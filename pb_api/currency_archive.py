@@ -19,8 +19,15 @@ from time import sleep
 # !!! Contain SQL queries, connection configurations, etc in files (csv, json) --
 # Use select last day SQL query instead of distinct to save resources +
 #
-
-
+sql_query ="""
+SELECT day FROM currencies_daily
+ORDER BY day DESC
+limit 1;
+            """
+sql_order="""
+SELECT * FROM currencies_daily
+ORDER BY id ASC;
+"""
 
 class Archive:
     def __init__(self):
@@ -29,13 +36,10 @@ class Archive:
         self.host_url = 'https://api.privatbank.ua/'
         self.api_url = 'p24api/exchange_rates?'
         self.path_to_csv = '/home/yurii/airflow/dags/csv/daily_currency.csv'
-        self.csv_folder = '/home/yurii/airflow/dags/csv'
-        with open(os.path.join(self.csv_folder, 'set_order.txt'), 'r') as sql_set_order_file:
-            self.sql_set_order = sql_set_order_file.read()
-        with open(os.path.join(self.csv_folder, 'get_date.txt'), 'r') as sql_get_date_file:
-            self.sql_get_date = sql_get_date_file.read()
+        self.sql_get_date = sql_query
+        self.sql_order = sql_order
 
-    def __upd_date(self):
+    def upd_date(self):
         conn = psycopg2.connect(database='exchange_rate', user='yurii', password='yurii', host='localhost')
         # Create a connection cursor
         cur = conn.cursor()
@@ -47,15 +51,15 @@ class Archive:
         except IndexError:
             return self.initial_day
         # The proper date for the dynamical API URL
-        cur.execute(self.sql_set_order)
+        cur.execute(self.sql_order)
         # Commit changes to the DB
         conn.commit()
         # Close a communication with SQL
         cur.close()
         return prev_day + timedelta(days=1)
 
-    def __extractor(self):
-        day = self.__upd_date().strftime('%d.%m.%Y')
+    def extractor(self):
+        day = self.upd_date().strftime('%d.%m.%Y')
         url = self.host_url + self.api_url + f'date={day}'
         # Webpage is xml-like, so I operate with it like with xml-file
         root = ET.fromstring(get(url).content)
@@ -65,17 +69,17 @@ class Archive:
             currencies_list.append(dict(child.attrib))
         return currencies_list
 
-    def __days_since_initial(self):
-        return (self.__upd_date() - self.initial_day).days
+    def days_since_initial(self):
+        return (self.upd_date() - self.initial_day).days
 
     def to_csv(self):
         # Extract data from the API omitting dict of date/bank and AUD exchange rate
-        currencies_list = self.__extractor()[2:]
+        currencies_list = self.extractor()[2:]
         # Create pandas dataframe to simply put data into a csv-file
         df = pd.DataFrame.from_dict(currencies_list)
         # Add some additional information to the dataframe
-        df['id'] = range(self.__days_since_initial() * len(currencies_list) + 1, (self.__days_since_initial() + 1) * len(currencies_list) + 1)
-        df['day'] = self.__upd_date()
+        df['id'] = range(self.days_since_initial() * len(currencies_list) + 1, (self.days_since_initial() + 1) * len(currencies_list) + 1)
+        df['day'] = self.upd_date()
         df['provider'] = 'PrivatBank'
         # Rename tables and change their order
         df = df[['id', 'day', 'currency', 'baseCurrency', 'provider', 'saleRateNB', 'purchaseRateNB']]
@@ -101,5 +105,5 @@ class Archive:
             print(error)
         finally:
             return 'Closed Database connection'
-print(Archive().to_csv())
-print(Archive().update_table())
+#print(Archive().to_csv())
+#print(Archive().update_table())

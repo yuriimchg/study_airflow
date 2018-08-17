@@ -1,0 +1,3 @@
+SELECT day FROM currencies_daily
+ORDER BY day DESC
+limit 1;
