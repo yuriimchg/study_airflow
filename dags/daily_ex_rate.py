@@ -1,7 +1,6 @@
 from currency_archive import Archive
 from datetime import datetime, timedelta
 from airflow.operators.python_operator import PythonOperator
-from airflow.operators.dummy_operator import DummyOperator
 from airflow import DAG
 
 default_args = {

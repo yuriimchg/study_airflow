@@ -1,3 +1,2 @@
 SELECT * FROM currencies_daily
 ORDER BY id ASC;
-

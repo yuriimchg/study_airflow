@@ -52,11 +52,13 @@ class Archive:
         conn.commit()
         # Close a communication with SQL
         cur.close()
+        assert prev_day <= datetime.date(today)
         return prev_day + timedelta(days=1)
 
     def __extractor(self):
         day = self.__upd_date().strftime('%d.%m.%Y')
         url = self.host_url + self.api_url + f'date={day}'
+        print(url)
         # Webpage is xml-like, so I operate with it like with xml-file
         root = ET.fromstring(get(url).content)
         currencies_list = []
@@ -72,6 +74,7 @@ class Archive:
         # Extract data from the API omitting dict of date/bank and AUD exchange rate
         currencies_list = self.__extractor()[2:]
         # Create pandas dataframe to simply put data into a csv-file
+        print(currencies_list)
         df = pd.DataFrame.from_dict(currencies_list)
         # Add some additional information to the dataframe
         df['id'] = range(self.__days_since_initial() * len(currencies_list) + 1, (self.__days_since_initial() + 1) * len(currencies_list) + 1)
@@ -79,12 +82,11 @@ class Archive:
         df['provider'] = 'PrivatBank'
         # Rename tables and change their order
         df = df[['id', 'day', 'currency', 'baseCurrency', 'provider', 'saleRateNB', 'purchaseRateNB']]
-        df.columns=['id', 'day', 'ccy', 'base_ccy', 'provider', 'sell', 'buy']
+        df.columns = ['id', 'day', 'ccy', 'base_ccy', 'provider', 'sell', 'buy']
         # Save all the data as csv
         df.to_csv(self.path_to_csv)
 
     def update_table(self):
-        print('upd')
         """
         Get data from local csv-file and load it to the database
         """

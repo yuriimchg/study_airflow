@@ -1,0 +1,2 @@
+SELECT * FROM nbu_api
+ORDER BY id ASC;

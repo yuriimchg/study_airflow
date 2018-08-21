@@ -1,0 +1,3 @@
+SELECT date FROM nbu_api
+ORDER BY date DESC
+limit 1;
