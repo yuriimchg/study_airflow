@@ -52,7 +52,7 @@ class Archive:
         conn.commit()
         # Close a communication with SQL
         cur.close()
-        assert prev_day <= datetime.date(today)
+        assert prev_day <= date.today()
         return prev_day + timedelta(days=1)
 
     def __extractor(self):
