@@ -4,6 +4,7 @@ from airflow import DAG
 from airflow.operators.python_operator import PythonOperator
 
 def set_interval():
+    path_to_file = # set_your_path
     interval = random.choice(['@hourly',
                             '* * * * *',
                             '*/11 * * * *',
@@ -13,7 +14,7 @@ def set_interval():
                             timedelta(minutes=7),
                             timedelta(minutes=14)
                             ])
-    with open('/home/yurii/airflow/dags/csv/interval.txt', 'w') as f:
+    with open(path_to_file, 'w') as f:
         f.write(str(interval))
 
 default_args = {
