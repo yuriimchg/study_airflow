@@ -28,15 +28,15 @@ class Archive:
         self.initial_day = date(2018,1,1)
         self.host_url = 'https://api.privatbank.ua/'
         self.api_url = 'p24api/exchange_rates?'
-        self.path_to_csv = '/home/yurii/airflow/dags/csv/daily_currency.csv'
-        self.csv_folder = '/home/yurii/airflow/dags/csv'
+        self.path_to_csv = '~/airflow/dags/csv/daily_currency.csv'
+        self.csv_folder = '~/airflow/dags/csv'
         with open(os.path.join(self.csv_folder, 'set_order.txt'), 'r') as sql_set_order_file:
             self.sql_set_order = sql_set_order_file.read()
         with open(os.path.join(self.csv_folder, 'get_date.txt'), 'r') as sql_get_date_file:
             self.sql_get_date = sql_get_date_file.read()
 
     def __upd_date(self):
-        conn = psycopg2.connect(database='exchange_rate', user='yurii', password='yurii', host='localhost')
+        conn = psycopg2.connect(database='exchange_rate', user='user', password='password', host='localhost')
         # Create a connection cursor
         cur = conn.cursor()
         # Get the date
@@ -93,7 +93,7 @@ class Archive:
         # Read data from csv
         pb_df = pd.read_csv(self.path_to_csv, index_col='id').drop(["Unnamed: 0"], axis=1)
         # Create PostgreSQL engine
-        engine = create_engine('postgresql://yurii:yurii@localhost:5432/exchange_rate')
+        engine = create_engine('postgresql://user:password@localhost:5432/exchange_rate')
         # Update the database
         try:
             pb_df.to_sql('currencies_daily', engine, if_exists='append')
