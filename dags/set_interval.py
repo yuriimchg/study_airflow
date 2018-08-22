@@ -6,8 +6,7 @@ from airflow.operators.bash_operator import BashOperator
 
 #  Editable configs
 dag_to_configure = 'dynamical_schedule'
-file_path = '/home/yurii/airflow/dags/csv/interval.txt'
-
+    path_to_file = '/home/yurii/airflow/dags/csv/interval.txt'
 def select_interval():
     interval = random.choice(['@hourly',
                             '*/2 * * * *',
@@ -18,7 +17,8 @@ def select_interval():
                             '* * * * 2',
                             '* * * * 3'
                             ])
-    with open(file_path, 'w') as f:
+
+    with open(path_to_file, 'w') as f:
         f.write(str(interval))
 
 def new_configs():
