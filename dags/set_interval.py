@@ -2,30 +2,45 @@ from datetime import datetime, timedelta
 import random
 from airflow import DAG
 from airflow.operators.python_operator import PythonOperator
+from airflow.operators.bash_operator import BashOperator
 
 def set_interval():
     interval = random.choice(['@hourly',
+                            '*/2 * * * *',
                             '* * * * *',
-                            '*/11 * * * *',
-                            '12 * * * *',
-                            '@daily',
-                            timedelta(minutes=13),
-                            timedelta(minutes=7),
-                            timedelta(minutes=14)
+                            '*/3 * * * *',
+                            '*/12 * * * *',
+                            '*/10 * * * *',
+                            '* * * * 2',
+                            '* * * * 3'
                             ])
     with open('/home/yurii/airflow/dags/csv/interval.txt', 'w') as f:
         f.write(str(interval))
+def new_configs():
+    a = random.randint(1,159)
+    assert a > 133
+    return None
+def sleeping_bastard():
+    sleep(120)
 
 default_args = {
                 'owner':'someone',
                 'depends_on_past':False,
-                'start_date':datetime(2018,1,1),
-                'retries':3,
-                'execution_timeout':timedelta(50)
+                'start_date':datetime(2017,11,11),
+                'retries':0,
             }
 
-dag_0 = DAG('interval_resetter', default_args=default_args, catchup=False, schedule_interval='* * * * *')
 
-task_4 = PythonOperator(task_id='reset_interval', python_callable=set_interval, dag=dag_0)
+dag_mngr = DAG('interval_resetter', default_args=default_args, catchup=False, schedule_interval='* * * * *', max_active_runs=1)
 
-task_4
+task_1 = PythonOperator(task_id='assert_new_configs', python_callable=new_configs, dag=dag_mngr)
+task_2 = BashOperator(task_id='pause_dag', bash_command='airflow pause dynamical_schedule', dag=dag_mngr)
+task_1 >> task_2
+
+task_3 = PythonOperator(task_id='reset_interval', python_callable=set_interval, trigger_rule='all_success', dag=dag_mngr)
+task_3_5 = BashOperator(task_id='sleep_2_mins', bash_command='sleep 120', dag=dag_mngr)
+task_4 = BashOperator(task_id='unpause_dag', bash_command='airflow unpause dynamical_schedule', dag=dag_mngr)
+task_2 >> task_3 >> task_3_5 >> task_4
+
+task_5 = BashOperator(task_id='printer', bash_command='echo assertion failed', trigger_rule='one_failed', dag=dag_mngr)
+task_1 >> task_5
