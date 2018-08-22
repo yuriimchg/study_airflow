@@ -4,7 +4,11 @@ from airflow import DAG
 from airflow.operators.python_operator import PythonOperator
 from airflow.operators.bash_operator import BashOperator
 
-def set_interval():
+#  Editable configs
+dag_to_configure = 'dynamical_schedule'
+file_path = '/home/yurii/airflow/dags/csv/interval.txt'
+
+def select_interval():
     interval = random.choice(['@hourly',
                             '*/2 * * * *',
                             '* * * * *',
@@ -14,14 +18,16 @@ def set_interval():
                             '* * * * 2',
                             '* * * * 3'
                             ])
-    with open('/home/yurii/airflow/dags/csv/interval.txt', 'w') as f:
+    with open(file_path, 'w') as f:
         f.write(str(interval))
+
 def new_configs():
+    """
+    A place for some new configs. Since there are no configs, here is a simulator
+    """
     a = random.randint(1,159)
     assert a > 133
     return None
-def sleeping_bastard():
-    sleep(120)
 
 default_args = {
                 'owner':'someone',
@@ -30,16 +36,15 @@ default_args = {
                 'retries':0,
             }
 
-
 dag_mngr = DAG('interval_resetter', default_args=default_args, catchup=False, schedule_interval='* * * * *', max_active_runs=1)
 
 task_1 = PythonOperator(task_id='assert_new_configs', python_callable=new_configs, dag=dag_mngr)
-task_2 = BashOperator(task_id='pause_dag', bash_command='airflow pause dynamical_schedule', dag=dag_mngr)
+task_2 = BashOperator(task_id='pause_dag', bash_command=f'airflow pause {dag_to_configure}', dag=dag_mngr)
 task_1 >> task_2
 
-task_3 = PythonOperator(task_id='reset_interval', python_callable=set_interval, trigger_rule='all_success', dag=dag_mngr)
+task_3 = PythonOperator(task_id='reset_interval', python_callable=select_interval, trigger_rule='all_success', dag=dag_mngr)
 task_3_5 = BashOperator(task_id='sleep_2_mins', bash_command='sleep 120', dag=dag_mngr)
-task_4 = BashOperator(task_id='unpause_dag', bash_command='airflow unpause dynamical_schedule', dag=dag_mngr)
+task_4 = BashOperator(task_id='unpause_dag', bash_command=f'airflow unpause {dag_to_configure}', dag=dag_mngr)
 task_2 >> task_3 >> task_3_5 >> task_4
 
 task_5 = BashOperator(task_id='printer', bash_command='echo assertion failed', trigger_rule='one_failed', dag=dag_mngr)
