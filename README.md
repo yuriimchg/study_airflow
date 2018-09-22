@@ -1,0 +1,1 @@
+This repo contains some pet-projects with Airflow, Celery executor and Selenium. Airflow in conjunction with Selenium WebDriver is a very powerful engine for web-scraping, parsing APIs or collecting datasets for machine learning. 
