@@ -36,7 +36,7 @@ class Archive:
             self.sql_get_date = sql_get_date_file.read()
 
     def __upd_date(self):
-        conn = psycopg2.connect(database='exchange_rate', user='user', password='password', host='localhost')
+        conn = psycopg2.connect(database='db', user='user', password='password', host='localhost')
         # Create a connection cursor
         cur = conn.cursor()
         # Get the date

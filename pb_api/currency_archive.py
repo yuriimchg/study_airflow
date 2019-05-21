@@ -95,7 +95,7 @@ class Archive:
         # Read data from csv
         pb_df = pd.read_csv(self.path_to_csv, index_col='id').drop(["Unnamed: 0"], axis=1)
         # Create PostgreSQL engine
-        engine = create_engine('postgresql://yurii:yurii@localhost:5432/exchange_rate')
+        engine = create_engine('postgresql://yurii:yurii@localhost:5432/db')
         # Update the database
         try:
             pb_df.to_sql('currencies_daily', engine, if_exists='append')

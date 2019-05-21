@@ -9,8 +9,8 @@ interval_tuple = ('@once', '@hourly', '@daily', '@weekly', '@monthly', '* 16 * *
 default_args = {
     'owner':'Lys Mykyta',
     'retries': 1,
-    'email_on_retry':'yurii.machuga@ralabs.org',
-    'email_on_failure':'yurii.machuga@ralabs.org',
+    'email_on_retry':'no_mail@nohost.org',
+    'email_on_failure':'no_mail@nohost.org',
     'depends_on_past':False,
     'start_date':datetime(2009,12,1)}
 

@@ -54,7 +54,7 @@ default_args = {
 'depends_on_past': False,
 'start_date': datetime(2018, 8, 11),
 'email': ['airflow@example.com'],
-'email_on_failure': ['yurii.machuga@ralabs.org'],
+'email_on_failure': ['no_mail@nohost.org'],
 'email_on_retry': False,
 'retries': 1,
 'backfill':False,

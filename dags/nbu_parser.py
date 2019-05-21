@@ -160,7 +160,7 @@ class NBUParser:
         # Read csv-file
         pd_table = pd.read_csv(os.path.join(self.path_to_csv, self.csv), index_col='id').drop(["Unnamed: 0"], axis=1)
         # Create PostgreSQL engine
-        engine = create_engine('postgresql://yurii:yurii@localhost:5432/exchange_rate')
+        engine = create_engine('postgresql://yurii:yurii@localhost:5432/db')
         # Update the database
         try:
             pd_table.to_sql('nbu_api', engine, if_exists='append')

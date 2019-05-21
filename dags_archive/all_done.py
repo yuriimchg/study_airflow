@@ -7,8 +7,8 @@ from random import randint
 default_args = {
     'owner':'babaj',
     'retries': 1,
-    'email_on_retry':'yurii.machuga@ralabs.org',
-    'email_on_failure':'yurii.machuga@ralabs.org',
+    'email_on_retry':'no_mail@nohost.org',
+    'email_on_failure':'no_mail@nohost.org',
     'depends_on_past':False,
     'start_date':datetime(2009,12,1)}
 
@@ -30,7 +30,7 @@ func_9 = lambda: print(21 + 4)
 func_10 = lambda: print(2 + 2)
 func_11 = lambda: (2 + 3)
 
-run_first = PythonOperator(task_id='first_task',python_callable=func_1,op_kwargs={'path':'/home/yurii/Desktop/new', 'filename':'all_done.txt'},dag=dag)
+run_first = PythonOperator(task_id='first_task',python_callable=func_1,op_kwargs={'path':'/away.py', 'filename':'all_done.txt'},dag=dag)
 run_second = PythonOperator(task_id='second_task',python_callable=func_2, dag=dag)
 run_third = PythonOperator(task_id='third_task', python_callable = func_10, dag=dag)
 

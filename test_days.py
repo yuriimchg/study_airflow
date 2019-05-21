@@ -5,17 +5,6 @@ def update_table(k):
     """
     Connect to the PostgreSQL database
     """
-    conn = None
-    updated_rows = 0
-    # connect to the PostgreSQL server
-#    print('Connecting to the server')
-    #conn = psycopg2.connect(database='exchange_rate', user='yurii', password='yurii', host='localhost')
-
-    # create a cursor
-    #cur = conn.cursor()
-
-    # Get the date
-    #cur.execute('SELECT COUNT(DISTINCT day) FROM currencies_daily')
 
     days_from_initial = k
     # The proper date for the URL

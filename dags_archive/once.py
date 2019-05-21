@@ -7,8 +7,8 @@ from datetime import datetime, timedelta
 default_args = {
     'owner':'babaj',
     'retries': 1,
-    'email_on_retry':'yurii.machuga@ralabs.org',
-    'email_on_failure':'yurii.machuga@ralabs.org',
+    'email_on_retry':'no_mail@nohost.org',
+    'email_on_failure':'no_mail@nohost.org',
     'depends_on_past':False,
     'start_date':datetime(2012,12,21)}
 
