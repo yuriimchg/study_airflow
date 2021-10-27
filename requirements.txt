@@ -9,7 +9,7 @@ Click==7.0
 cloudpickle==0.5.6
 cycler==0.10.0
 Cython==0.28.5
-dask==0.19.2
+dask==2021.10.0
 decorator==4.3.0
 defusedxml==0.5.0
 dlib==19.15.0
